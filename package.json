@@ -1,0 +1,11 @@
+{
+  "name": "deepgram_trial",
+  "packageManager": "yarn@4.3.1",
+  "dependencies": {
+    "axios": "^1.7.7",
+    "dotenv": "^16.4.5"
+  },
+  "scripts": {
+    "start": "node index.mjs"
+  }
+}
