@@ -1,0 +1,630 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "492f7eec-2468-4867-a183-ab68fbe54829",
+    "sha256": "ab0804500e2bbaa3043d8d947895c59bda56619b41154709cadb9af5b9960fb0",
+    "created": "2024-11-01T23:35:57.046Z",
+    "duration": 23.04,
+    "channels": 1,
+    "models": [
+      "90aed297-6e9b-44d3-b230-7cba901c8b7a"
+    ],
+    "model_info": {
+      "90aed297-6e9b-44d3-b230-7cba901c8b7a": {
+        "name": "2-general-nova",
+        "version": "2024-05-10.30049",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "您好我要一杯英式红茶会员没有会员但说明阿叔对可以啦先杀人注意哦谢谢",
+            "confidence": 0.76464844,
+            "words": [
+              {
+                "word": "您",
+                "start": 0.39999998,
+                "end": 0.9,
+                "confidence": 0.62597656,
+                "speaker": 0,
+                "speaker_confidence": 0.31994814
+              },
+              {
+                "word": "好",
+                "start": 2.6399999,
+                "end": 3.1399999,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 0.30242622
+              },
+              {
+                "word": "我",
+                "start": 4.88,
+                "end": 5.04,
+                "confidence": 0.32592773,
+                "speaker": 0,
+                "speaker_confidence": 0.14714026
+              },
+              {
+                "word": "要",
+                "start": 5.2,
+                "end": 5.44,
+                "confidence": 0.9902344,
+                "speaker": 0,
+                "speaker_confidence": 0.14714026
+              },
+              {
+                "word": "一",
+                "start": 5.52,
+                "end": 5.6,
+                "confidence": 0.99121094,
+                "speaker": 0,
+                "speaker_confidence": 0.14714026
+              },
+              {
+                "word": "杯",
+                "start": 5.68,
+                "end": 5.84,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 0.14714026
+              },
+              {
+                "word": "英",
+                "start": 6,
+                "end": 6.08,
+                "confidence": 0.5371094,
+                "speaker": 0,
+                "speaker_confidence": 0.14714026
+              },
+              {
+                "word": "式",
+                "start": 6.16,
+                "end": 6.3999996,
+                "confidence": 0.99121094,
+                "speaker": 0,
+                "speaker_confidence": 0.14714026
+              },
+              {
+                "word": "红",
+                "start": 6.48,
+                "end": 6.64,
+                "confidence": 0.98828125,
+                "speaker": 0,
+                "speaker_confidence": 0.14714026
+              },
+              {
+                "word": "茶",
+                "start": 6.72,
+                "end": 7.22,
+                "confidence": 0.56347656,
+                "speaker": 0,
+                "speaker_confidence": 0.14714026
+              },
+              {
+                "word": "会",
+                "start": 13.705,
+                "end": 13.925,
+                "confidence": 0.2298584,
+                "speaker": 0,
+                "speaker_confidence": 0.14579791
+              },
+              {
+                "word": "员",
+                "start": 14.145,
+                "end": 14.365,
+                "confidence": 0.7998047,
+                "speaker": 0,
+                "speaker_confidence": 0.14579791
+              },
+              {
+                "word": "没",
+                "start": 14.445,
+                "end": 14.605,
+                "confidence": 0.38916016,
+                "speaker": 0,
+                "speaker_confidence": 0.3352763
+              },
+              {
+                "word": "有",
+                "start": 14.765,
+                "end": 14.845,
+                "confidence": 0.9892578,
+                "speaker": 0,
+                "speaker_confidence": 0.3352763
+              },
+              {
+                "word": "会",
+                "start": 14.925,
+                "end": 15.005,
+                "confidence": 0.9970703,
+                "speaker": 0,
+                "speaker_confidence": 0.3352763
+              },
+              {
+                "word": "员",
+                "start": 15.085,
+                "end": 15.585,
+                "confidence": 0.9980469,
+                "speaker": 0,
+                "speaker_confidence": 0.3352763
+              },
+              {
+                "word": "但",
+                "start": 17.165,
+                "end": 17.405,
+                "confidence": 0.6489258,
+                "speaker": 0,
+                "speaker_confidence": 0.10692394
+              },
+              {
+                "word": "说",
+                "start": 17.485,
+                "end": 17.605,
+                "confidence": 0.8173828,
+                "speaker": 0,
+                "speaker_confidence": 0.10692394
+              },
+              {
+                "word": "明",
+                "start": 17.725,
+                "end": 17.805,
+                "confidence": 0.59716797,
+                "speaker": 0,
+                "speaker_confidence": 0.06487286
+              },
+              {
+                "word": "阿",
+                "start": 17.885,
+                "end": 17.965,
+                "confidence": 0.45703125,
+                "speaker": 0,
+                "speaker_confidence": 0.06487286
+              },
+              {
+                "word": "叔",
+                "start": 18.045,
+                "end": 18.445,
+                "confidence": 0.5883789,
+                "speaker": 0,
+                "speaker_confidence": 0.06487286
+              },
+              {
+                "word": "对",
+                "start": 18.685,
+                "end": 19.005001,
+                "confidence": 0.3684082,
+                "speaker": 0,
+                "speaker_confidence": 0.25854355
+              },
+              {
+                "word": "可",
+                "start": 19.325,
+                "end": 19.825,
+                "confidence": 0.7890625,
+                "speaker": 0,
+                "speaker_confidence": 0.25854355
+              },
+              {
+                "word": "以",
+                "start": 20.445,
+                "end": 20.685001,
+                "confidence": 0.98828125,
+                "speaker": 0,
+                "speaker_confidence": 0.21355993
+              },
+              {
+                "word": "啦",
+                "start": 20.765,
+                "end": 20.925,
+                "confidence": 0.58984375,
+                "speaker": 0,
+                "speaker_confidence": 0.21355993
+              },
+              {
+                "word": "先",
+                "start": 21.085,
+                "end": 21.244999,
+                "confidence": 0.76464844,
+                "speaker": 0,
+                "speaker_confidence": 0.06334412
+              },
+              {
+                "word": "杀",
+                "start": 21.325,
+                "end": 21.405,
+                "confidence": 0.7338867,
+                "speaker": 0,
+                "speaker_confidence": 0.06334412
+              },
+              {
+                "word": "人",
+                "start": 21.485,
+                "end": 21.565,
+                "confidence": 0.18554688,
+                "speaker": 0,
+                "speaker_confidence": 0.03028071
+              },
+              {
+                "word": "注",
+                "start": 21.645,
+                "end": 21.725,
+                "confidence": 0.42797852,
+                "speaker": 0,
+                "speaker_confidence": 0.03028071
+              },
+              {
+                "word": "意",
+                "start": 21.805,
+                "end": 21.965,
+                "confidence": 1,
+                "speaker": 0,
+                "speaker_confidence": 0.03028071
+              },
+              {
+                "word": "哦",
+                "start": 22.045,
+                "end": 22.205,
+                "confidence": 0.3786621,
+                "speaker": 0,
+                "speaker_confidence": 0.15172267
+              },
+              {
+                "word": "谢",
+                "start": 22.285,
+                "end": 22.525,
+                "confidence": 0.9951172,
+                "speaker": 0,
+                "speaker_confidence": 0.15172267
+              },
+              {
+                "word": "谢",
+                "start": 22.605,
+                "end": 23.04,
+                "confidence": 1,
+                "speaker": 0,
+                "speaker_confidence": 0.15172267
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "utterances": [
+      {
+        "start": 0.39999998,
+        "end": 0.9,
+        "confidence": 0.62597656,
+        "channel": 0,
+        "transcript": "您",
+        "words": [
+          {
+            "word": "您",
+            "start": 0.39999998,
+            "end": 0.9,
+            "confidence": 0.62597656,
+            "speaker": 0,
+            "speaker_confidence": 0.31994814
+          }
+        ],
+        "speaker": 0,
+        "id": "f05f8956-4256-4840-98e1-da13a7f9dd98"
+      },
+      {
+        "start": 2.6399999,
+        "end": 3.1399999,
+        "confidence": 0.99902344,
+        "channel": 0,
+        "transcript": "好",
+        "words": [
+          {
+            "word": "好",
+            "start": 2.6399999,
+            "end": 3.1399999,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 0.30242622
+          }
+        ],
+        "speaker": 0,
+        "id": "f6b30125-ed25-4b2f-8348-0daba87a41af"
+      },
+      {
+        "start": 4.88,
+        "end": 7.22,
+        "confidence": 0.7983093,
+        "channel": 0,
+        "transcript": "我 要 一 杯 英 式 红 茶",
+        "words": [
+          {
+            "word": "我",
+            "start": 4.88,
+            "end": 5.04,
+            "confidence": 0.32592773,
+            "speaker": 0,
+            "speaker_confidence": 0.14714026
+          },
+          {
+            "word": "要",
+            "start": 5.2,
+            "end": 5.44,
+            "confidence": 0.9902344,
+            "speaker": 0,
+            "speaker_confidence": 0.14714026
+          },
+          {
+            "word": "一",
+            "start": 5.52,
+            "end": 5.6,
+            "confidence": 0.99121094,
+            "speaker": 0,
+            "speaker_confidence": 0.14714026
+          },
+          {
+            "word": "杯",
+            "start": 5.68,
+            "end": 5.84,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 0.14714026
+          },
+          {
+            "word": "英",
+            "start": 6,
+            "end": 6.08,
+            "confidence": 0.5371094,
+            "speaker": 0,
+            "speaker_confidence": 0.14714026
+          },
+          {
+            "word": "式",
+            "start": 6.16,
+            "end": 6.3999996,
+            "confidence": 0.99121094,
+            "speaker": 0,
+            "speaker_confidence": 0.14714026
+          },
+          {
+            "word": "红",
+            "start": 6.48,
+            "end": 6.64,
+            "confidence": 0.98828125,
+            "speaker": 0,
+            "speaker_confidence": 0.14714026
+          },
+          {
+            "word": "茶",
+            "start": 6.72,
+            "end": 7.22,
+            "confidence": 0.56347656,
+            "speaker": 0,
+            "speaker_confidence": 0.14714026
+          }
+        ],
+        "speaker": 0,
+        "id": "6e1712a6-c441-43d1-a878-83ce4f941e9b"
+      },
+      {
+        "start": 13.705,
+        "end": 15.585,
+        "confidence": 0.7338664,
+        "channel": 0,
+        "transcript": "会 员 没 有 会 员",
+        "words": [
+          {
+            "word": "会",
+            "start": 13.705,
+            "end": 13.925,
+            "confidence": 0.2298584,
+            "speaker": 0,
+            "speaker_confidence": 0.14579791
+          },
+          {
+            "word": "员",
+            "start": 14.145,
+            "end": 14.365,
+            "confidence": 0.7998047,
+            "speaker": 0,
+            "speaker_confidence": 0.14579791
+          },
+          {
+            "word": "没",
+            "start": 14.445,
+            "end": 14.605,
+            "confidence": 0.38916016,
+            "speaker": 0,
+            "speaker_confidence": 0.3352763
+          },
+          {
+            "word": "有",
+            "start": 14.765,
+            "end": 14.845,
+            "confidence": 0.9892578,
+            "speaker": 0,
+            "speaker_confidence": 0.3352763
+          },
+          {
+            "word": "会",
+            "start": 14.925,
+            "end": 15.005,
+            "confidence": 0.9970703,
+            "speaker": 0,
+            "speaker_confidence": 0.3352763
+          },
+          {
+            "word": "员",
+            "start": 15.085,
+            "end": 15.585,
+            "confidence": 0.9980469,
+            "speaker": 0,
+            "speaker_confidence": 0.3352763
+          }
+        ],
+        "speaker": 0,
+        "id": "4c71b0b6-332d-4323-ab95-abd2650bcd66"
+      },
+      {
+        "start": 17.165,
+        "end": 19.825,
+        "confidence": 0.6094796,
+        "channel": 0,
+        "transcript": "但 说 明 阿 叔 对 可",
+        "words": [
+          {
+            "word": "但",
+            "start": 17.165,
+            "end": 17.405,
+            "confidence": 0.6489258,
+            "speaker": 0,
+            "speaker_confidence": 0.10692394
+          },
+          {
+            "word": "说",
+            "start": 17.485,
+            "end": 17.605,
+            "confidence": 0.8173828,
+            "speaker": 0,
+            "speaker_confidence": 0.10692394
+          },
+          {
+            "word": "明",
+            "start": 17.725,
+            "end": 17.805,
+            "confidence": 0.59716797,
+            "speaker": 0,
+            "speaker_confidence": 0.06487286
+          },
+          {
+            "word": "阿",
+            "start": 17.885,
+            "end": 17.965,
+            "confidence": 0.45703125,
+            "speaker": 0,
+            "speaker_confidence": 0.06487286
+          },
+          {
+            "word": "叔",
+            "start": 18.045,
+            "end": 18.445,
+            "confidence": 0.5883789,
+            "speaker": 0,
+            "speaker_confidence": 0.06487286
+          },
+          {
+            "word": "对",
+            "start": 18.685,
+            "end": 19.005001,
+            "confidence": 0.3684082,
+            "speaker": 0,
+            "speaker_confidence": 0.25854355
+          },
+          {
+            "word": "可",
+            "start": 19.325,
+            "end": 19.825,
+            "confidence": 0.7890625,
+            "speaker": 0,
+            "speaker_confidence": 0.25854355
+          }
+        ],
+        "speaker": 0,
+        "id": "aabc0182-cc91-4d30-b18c-e4f2c890f483"
+      },
+      {
+        "start": 20.445,
+        "end": 23.04,
+        "confidence": 0.70639646,
+        "channel": 0,
+        "transcript": "以 啦 先 杀 人 注 意 哦 谢 谢",
+        "words": [
+          {
+            "word": "以",
+            "start": 20.445,
+            "end": 20.685001,
+            "confidence": 0.98828125,
+            "speaker": 0,
+            "speaker_confidence": 0.21355993
+          },
+          {
+            "word": "啦",
+            "start": 20.765,
+            "end": 20.925,
+            "confidence": 0.58984375,
+            "speaker": 0,
+            "speaker_confidence": 0.21355993
+          },
+          {
+            "word": "先",
+            "start": 21.085,
+            "end": 21.244999,
+            "confidence": 0.76464844,
+            "speaker": 0,
+            "speaker_confidence": 0.06334412
+          },
+          {
+            "word": "杀",
+            "start": 21.325,
+            "end": 21.405,
+            "confidence": 0.7338867,
+            "speaker": 0,
+            "speaker_confidence": 0.06334412
+          },
+          {
+            "word": "人",
+            "start": 21.485,
+            "end": 21.565,
+            "confidence": 0.18554688,
+            "speaker": 0,
+            "speaker_confidence": 0.03028071
+          },
+          {
+            "word": "注",
+            "start": 21.645,
+            "end": 21.725,
+            "confidence": 0.42797852,
+            "speaker": 0,
+            "speaker_confidence": 0.03028071
+          },
+          {
+            "word": "意",
+            "start": 21.805,
+            "end": 21.965,
+            "confidence": 1,
+            "speaker": 0,
+            "speaker_confidence": 0.03028071
+          },
+          {
+            "word": "哦",
+            "start": 22.045,
+            "end": 22.205,
+            "confidence": 0.3786621,
+            "speaker": 0,
+            "speaker_confidence": 0.15172267
+          },
+          {
+            "word": "谢",
+            "start": 22.285,
+            "end": 22.525,
+            "confidence": 0.9951172,
+            "speaker": 0,
+            "speaker_confidence": 0.15172267
+          },
+          {
+            "word": "谢",
+            "start": 22.605,
+            "end": 23.04,
+            "confidence": 1,
+            "speaker": 0,
+            "speaker_confidence": 0.15172267
+          }
+        ],
+        "speaker": 0,
+        "id": "ea7d6e3f-bb29-40af-a667-41bc0da8a805"
+      }
+    ]
+  }
+}
