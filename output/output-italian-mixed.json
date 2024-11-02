@@ -1,0 +1,420 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "67fa0231-5c2d-4c40-804e-2735ada767fd",
+    "sha256": "f13685e15c61073af5fb1023f61dc6a30ea6c1fa0331dfdf7bf8fb4610106719",
+    "created": "2024-11-02T03:33:29.952Z",
+    "duration": 10.031,
+    "channels": 1,
+    "models": [
+      "1abfe86b-e047-4eed-858a-35e5625b41ee"
+    ],
+    "model_info": {
+      "1abfe86b-e047-4eed-858a-35e5625b41ee": {
+        "name": "2-general-nova",
+        "version": "2024-01-06.5664",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Speak freely in her mother tongue. Dershko is a second generation Canadian with Macedonian family members who don't speak English.",
+            "confidence": 0.9990959,
+            "words": [
+              {
+                "word": "speak",
+                "start": 0.16,
+                "end": 0.39999998,
+                "confidence": 0.3919916,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Speak"
+              },
+              {
+                "word": "freely",
+                "start": 0.39999998,
+                "end": 0.88,
+                "confidence": 0.9996511,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "freely"
+              },
+              {
+                "word": "in",
+                "start": 0.88,
+                "end": 1.04,
+                "confidence": 0.9992648,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "in"
+              },
+              {
+                "word": "her",
+                "start": 1.04,
+                "end": 1.1999999,
+                "confidence": 0.99958366,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "her"
+              },
+              {
+                "word": "mother",
+                "start": 1.1999999,
+                "end": 1.4399999,
+                "confidence": 0.99959165,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "mother"
+              },
+              {
+                "word": "tongue",
+                "start": 1.4399999,
+                "end": 1.9399999,
+                "confidence": 0.99539506,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "tongue."
+              },
+              {
+                "word": "dershko",
+                "start": 4.08,
+                "end": 4.58,
+                "confidence": 0.7633905,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Dershko"
+              },
+              {
+                "word": "is",
+                "start": 4.64,
+                "end": 5.04,
+                "confidence": 0.9990959,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "is"
+              },
+              {
+                "word": "a",
+                "start": 5.04,
+                "end": 5.2,
+                "confidence": 0.9946077,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "second",
+                "start": 5.2,
+                "end": 5.6,
+                "confidence": 0.9998777,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "second"
+              },
+              {
+                "word": "generation",
+                "start": 5.6,
+                "end": 6.1,
+                "confidence": 0.9993205,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "generation"
+              },
+              {
+                "word": "canadian",
+                "start": 6.16,
+                "end": 6.64,
+                "confidence": 0.99899906,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Canadian"
+              },
+              {
+                "word": "with",
+                "start": 6.64,
+                "end": 7.12,
+                "confidence": 0.9151655,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "with"
+              },
+              {
+                "word": "macedonian",
+                "start": 7.12,
+                "end": 7.62,
+                "confidence": 0.9910313,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "Macedonian"
+              },
+              {
+                "word": "family",
+                "start": 7.8399997,
+                "end": 8.16,
+                "confidence": 0.9989309,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "family"
+              },
+              {
+                "word": "members",
+                "start": 8.16,
+                "end": 8.48,
+                "confidence": 0.9994874,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "members"
+              },
+              {
+                "word": "who",
+                "start": 8.48,
+                "end": 8.639999,
+                "confidence": 0.9948447,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "who"
+              },
+              {
+                "word": "don't",
+                "start": 8.639999,
+                "end": 8.8,
+                "confidence": 0.99993175,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "don't"
+              },
+              {
+                "word": "speak",
+                "start": 8.8,
+                "end": 9.04,
+                "confidence": 0.99971443,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "speak"
+              },
+              {
+                "word": "english",
+                "start": 9.04,
+                "end": 9.54,
+                "confidence": 0.99692655,
+                "speaker": 0,
+                "speaker_confidence": 1,
+                "punctuated_word": "English."
+              }
+            ]
+          }
+        ],
+        "detected_language": "en",
+        "language_confidence": 0.9959825
+      }
+    ],
+    "utterances": [
+      {
+        "start": 0.16,
+        "end": 1.9399999,
+        "confidence": 0.89757967,
+        "channel": 0,
+        "transcript": "Speak freely in her mother tongue.",
+        "words": [
+          {
+            "word": "speak",
+            "start": 0.16,
+            "end": 0.39999998,
+            "confidence": 0.3919916,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Speak"
+          },
+          {
+            "word": "freely",
+            "start": 0.39999998,
+            "end": 0.88,
+            "confidence": 0.9996511,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "freely"
+          },
+          {
+            "word": "in",
+            "start": 0.88,
+            "end": 1.04,
+            "confidence": 0.9992648,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "in"
+          },
+          {
+            "word": "her",
+            "start": 1.04,
+            "end": 1.1999999,
+            "confidence": 0.99958366,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "her"
+          },
+          {
+            "word": "mother",
+            "start": 1.1999999,
+            "end": 1.4399999,
+            "confidence": 0.99959165,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "mother"
+          },
+          {
+            "word": "tongue",
+            "start": 1.4399999,
+            "end": 1.9399999,
+            "confidence": 0.99539506,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "tongue."
+          }
+        ],
+        "speaker": 0,
+        "id": "6472cb03-617c-48a8-b3c9-f7e208b9a7fb"
+      },
+      {
+        "start": 4.08,
+        "end": 9.54,
+        "confidence": 0.9750945,
+        "channel": 0,
+        "transcript": "Dershko is a second generation Canadian with Macedonian family members who don't speak English.",
+        "words": [
+          {
+            "word": "dershko",
+            "start": 4.08,
+            "end": 4.58,
+            "confidence": 0.7633905,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Dershko"
+          },
+          {
+            "word": "is",
+            "start": 4.64,
+            "end": 5.04,
+            "confidence": 0.9990959,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "is"
+          },
+          {
+            "word": "a",
+            "start": 5.04,
+            "end": 5.2,
+            "confidence": 0.9946077,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "second",
+            "start": 5.2,
+            "end": 5.6,
+            "confidence": 0.9998777,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "second"
+          },
+          {
+            "word": "generation",
+            "start": 5.6,
+            "end": 6.1,
+            "confidence": 0.9993205,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "generation"
+          },
+          {
+            "word": "canadian",
+            "start": 6.16,
+            "end": 6.64,
+            "confidence": 0.99899906,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Canadian"
+          },
+          {
+            "word": "with",
+            "start": 6.64,
+            "end": 7.12,
+            "confidence": 0.9151655,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "with"
+          },
+          {
+            "word": "macedonian",
+            "start": 7.12,
+            "end": 7.62,
+            "confidence": 0.9910313,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "Macedonian"
+          },
+          {
+            "word": "family",
+            "start": 7.8399997,
+            "end": 8.16,
+            "confidence": 0.9989309,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "family"
+          },
+          {
+            "word": "members",
+            "start": 8.16,
+            "end": 8.48,
+            "confidence": 0.9994874,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "members"
+          },
+          {
+            "word": "who",
+            "start": 8.48,
+            "end": 8.639999,
+            "confidence": 0.9948447,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "who"
+          },
+          {
+            "word": "don't",
+            "start": 8.639999,
+            "end": 8.8,
+            "confidence": 0.99993175,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "don't"
+          },
+          {
+            "word": "speak",
+            "start": 8.8,
+            "end": 9.04,
+            "confidence": 0.99971443,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "speak"
+          },
+          {
+            "word": "english",
+            "start": 9.04,
+            "end": 9.54,
+            "confidence": 0.99692655,
+            "speaker": 0,
+            "speaker_confidence": 1,
+            "punctuated_word": "English."
+          }
+        ],
+        "speaker": 0,
+        "id": "f0379f0b-9fed-4cbe-9342-33ba6f04920c"
+      }
+    ]
+  }
+}

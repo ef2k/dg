@@ -1,0 +1,278 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "speak freely in her mother tongue",
+          "confidence": 0.96788865,
+          "words": [
+            {
+              "startTime": "0s",
+              "endTime": "0.400s",
+              "word": "speak"
+            },
+            {
+              "startTime": "0.400s",
+              "endTime": "0.800s",
+              "word": "freely"
+            },
+            {
+              "startTime": "0.800s",
+              "endTime": "1.100s",
+              "word": "in"
+            },
+            {
+              "startTime": "1.100s",
+              "endTime": "1.100s",
+              "word": "her"
+            },
+            {
+              "startTime": "1.100s",
+              "endTime": "1.300s",
+              "word": "mother"
+            },
+            {
+              "startTime": "1.300s",
+              "endTime": "1.800s",
+              "word": "tongue"
+            }
+          ]
+        }
+      ],
+      "resultEndTime": "2.310s",
+      "languageCode": "en-us"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": " churchco is a second generation Canadian with Macedonian family members who don't speak English",
+          "confidence": 0.9172028,
+          "words": [
+            {
+              "startTime": "3.300s",
+              "endTime": "4.700s",
+              "word": "churchco"
+            },
+            {
+              "startTime": "4.700s",
+              "endTime": "4.900s",
+              "word": "is"
+            },
+            {
+              "startTime": "4.900s",
+              "endTime": "5s",
+              "word": "a"
+            },
+            {
+              "startTime": "5s",
+              "endTime": "5.300s",
+              "word": "second"
+            },
+            {
+              "startTime": "5.300s",
+              "endTime": "5.900s",
+              "word": "generation"
+            },
+            {
+              "startTime": "5.900s",
+              "endTime": "6.500s",
+              "word": "Canadian"
+            },
+            {
+              "startTime": "6.500s",
+              "endTime": "6.800s",
+              "word": "with"
+            },
+            {
+              "startTime": "6.800s",
+              "endTime": "7.800s",
+              "word": "Macedonian"
+            },
+            {
+              "startTime": "7.800s",
+              "endTime": "8.100s",
+              "word": "family"
+            },
+            {
+              "startTime": "8.100s",
+              "endTime": "8.400s",
+              "word": "members"
+            },
+            {
+              "startTime": "8.400s",
+              "endTime": "8.600s",
+              "word": "who"
+            },
+            {
+              "startTime": "8.600s",
+              "endTime": "8.600s",
+              "word": "don't"
+            },
+            {
+              "startTime": "8.600s",
+              "endTime": "8.900s",
+              "word": "speak"
+            },
+            {
+              "startTime": "8.900s",
+              "endTime": "9.200s",
+              "word": "English"
+            }
+          ]
+        }
+      ],
+      "resultEndTime": "9.880s",
+      "languageCode": "en-us"
+    },
+    {
+      "alternatives": [
+        {
+          "words": [
+            {
+              "startTime": "0s",
+              "endTime": "0.400s",
+              "word": "speak",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "0.400s",
+              "endTime": "0.800s",
+              "word": "freely",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "0.800s",
+              "endTime": "1.100s",
+              "word": "in",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "1.100s",
+              "endTime": "1.100s",
+              "word": "her",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "1.100s",
+              "endTime": "1.300s",
+              "word": "mother",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "1.300s",
+              "endTime": "1.800s",
+              "word": "tongue",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "3.300s",
+              "endTime": "4.700s",
+              "word": "churchco",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "4.700s",
+              "endTime": "4.900s",
+              "word": "is",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "4.900s",
+              "endTime": "5s",
+              "word": "a",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "5s",
+              "endTime": "5.300s",
+              "word": "second",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "5.300s",
+              "endTime": "5.900s",
+              "word": "generation",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "5.900s",
+              "endTime": "6.500s",
+              "word": "Canadian",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "6.500s",
+              "endTime": "6.800s",
+              "word": "with",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "6.800s",
+              "endTime": "7.800s",
+              "word": "Macedonian",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "7.800s",
+              "endTime": "8.100s",
+              "word": "family",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "8.100s",
+              "endTime": "8.400s",
+              "word": "members",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "8.400s",
+              "endTime": "8.600s",
+              "word": "who",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "8.600s",
+              "endTime": "8.600s",
+              "word": "don't",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "8.600s",
+              "endTime": "8.900s",
+              "word": "speak",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "8.900s",
+              "endTime": "9.200s",
+              "word": "English",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "totalBilledTime": "10s",
+  "requestId": "4859326944739905602"
+}

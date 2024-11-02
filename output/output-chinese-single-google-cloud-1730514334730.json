@@ -1,0 +1,88 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {}
+      ],
+      "resultEndTime": "2.600s",
+      "languageCode": "en-us"
+    },
+    {
+      "alternatives": [
+        {}
+      ],
+      "resultEndTime": "3.720s",
+      "languageCode": "en-us"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": "why are you paying",
+          "confidence": 0.27887127,
+          "words": [
+            {
+              "startTime": "5s",
+              "endTime": "5.800s",
+              "word": "why"
+            },
+            {
+              "startTime": "5.800s",
+              "endTime": "6.100s",
+              "word": "are"
+            },
+            {
+              "startTime": "6.100s",
+              "endTime": "6.200s",
+              "word": "you"
+            },
+            {
+              "startTime": "6.200s",
+              "endTime": "6.400s",
+              "word": "paying"
+            }
+          ]
+        }
+      ],
+      "resultEndTime": "8.420s",
+      "languageCode": "en-us"
+    },
+    {
+      "alternatives": [
+        {
+          "words": [
+            {
+              "startTime": "5s",
+              "endTime": "5.800s",
+              "word": "why",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "5.800s",
+              "endTime": "6.100s",
+              "word": "are",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "6.100s",
+              "endTime": "6.200s",
+              "word": "you",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "6.200s",
+              "endTime": "6.400s",
+              "word": "paying",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "totalBilledTime": "23s",
+  "requestId": "2099026624594496868"
+}

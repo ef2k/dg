@@ -1,0 +1,1230 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "3bc9fbf3-5b2c-418c-ae92-2d594ccadc4c",
+    "sha256": "c0d1210c9865e89a80f828c6d1a48939d9a30d8fbdb01089b21a95e204af3afa",
+    "created": "2024-11-02T03:49:22.678Z",
+    "duration": 18.024,
+    "channels": 1,
+    "models": [
+      "4f82af92-7749-4465-92ad-3db204bc8e03"
+    ],
+    "model_info": {
+      "4f82af92-7749-4465-92ad-3db204bc8e03": {
+        "name": "2-general-nova",
+        "version": "2023-12-14.34983",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "Yo siempre he tratado de hablar los dos idiomas, ¿no? Más más así, si vamos a hablar inglés, vamos a hablar inglés, si vamos a hablar español, vamos a hablar español. ¿En español español? Pues, una vez se puede decir, yo venía donde Los Ángeles, yo hablo lo que se llama Spanglish, que you que speak español and the end English at the same tiempo.",
+            "confidence": 0.94544303,
+            "words": [
+              {
+                "word": "yo",
+                "start": 0.08,
+                "end": 0.24,
+                "confidence": 0.42555356,
+                "speaker": 0,
+                "speaker_confidence": 0.2745902,
+                "punctuated_word": "Yo"
+              },
+              {
+                "word": "siempre",
+                "start": 0.24,
+                "end": 0.74,
+                "confidence": 0.9947752,
+                "speaker": 0,
+                "speaker_confidence": 0.2745902,
+                "punctuated_word": "siempre"
+              },
+              {
+                "word": "he",
+                "start": 0.79999995,
+                "end": 0.96,
+                "confidence": 0.98613745,
+                "speaker": 0,
+                "speaker_confidence": 0.2745902,
+                "punctuated_word": "he"
+              },
+              {
+                "word": "tratado",
+                "start": 0.96,
+                "end": 1.4399999,
+                "confidence": 0.9963994,
+                "speaker": 0,
+                "speaker_confidence": 0.2745902,
+                "punctuated_word": "tratado"
+              },
+              {
+                "word": "de",
+                "start": 1.4399999,
+                "end": 1.52,
+                "confidence": 0.8565096,
+                "speaker": 0,
+                "speaker_confidence": 0.2745902,
+                "punctuated_word": "de"
+              },
+              {
+                "word": "hablar",
+                "start": 1.52,
+                "end": 1.68,
+                "confidence": 0.99888045,
+                "speaker": 0,
+                "speaker_confidence": 0.2745902,
+                "punctuated_word": "hablar"
+              },
+              {
+                "word": "los",
+                "start": 1.68,
+                "end": 1.76,
+                "confidence": 0.9967853,
+                "speaker": 0,
+                "speaker_confidence": 0.2745902,
+                "punctuated_word": "los"
+              },
+              {
+                "word": "dos",
+                "start": 1.76,
+                "end": 1.92,
+                "confidence": 0.99858874,
+                "speaker": 0,
+                "speaker_confidence": 0.61624676,
+                "punctuated_word": "dos"
+              },
+              {
+                "word": "idiomas",
+                "start": 1.92,
+                "end": 2.3999999,
+                "confidence": 0.94623125,
+                "speaker": 0,
+                "speaker_confidence": 0.61624676,
+                "punctuated_word": "idiomas,"
+              },
+              {
+                "word": "no",
+                "start": 2.3999999,
+                "end": 2.8999999,
+                "confidence": 0.99282885,
+                "speaker": 0,
+                "speaker_confidence": 0.61624676,
+                "punctuated_word": "¿no?"
+              },
+              {
+                "word": "más",
+                "start": 3.04,
+                "end": 3.54,
+                "confidence": 0.93487,
+                "speaker": 0,
+                "speaker_confidence": 0.61624676,
+                "punctuated_word": "Más"
+              },
+              {
+                "word": "más",
+                "start": 3.6799998,
+                "end": 4.18,
+                "confidence": 0.8765925,
+                "speaker": 0,
+                "speaker_confidence": 0.61624676,
+                "punctuated_word": "más"
+              },
+              {
+                "word": "así",
+                "start": 4.3199997,
+                "end": 4.8199997,
+                "confidence": 0.7018231,
+                "speaker": 0,
+                "speaker_confidence": 0.61624676,
+                "punctuated_word": "así,"
+              },
+              {
+                "word": "si",
+                "start": 4.96,
+                "end": 5.2799997,
+                "confidence": 0.94196445,
+                "speaker": 0,
+                "speaker_confidence": 0.61624676,
+                "punctuated_word": "si"
+              },
+              {
+                "word": "vamos",
+                "start": 5.2799997,
+                "end": 5.3999996,
+                "confidence": 0.99515533,
+                "speaker": 0,
+                "speaker_confidence": 0.61624676,
+                "punctuated_word": "vamos"
+              },
+              {
+                "word": "a",
+                "start": 5.3999996,
+                "end": 5.52,
+                "confidence": 0.94544303,
+                "speaker": 0,
+                "speaker_confidence": 0.61624676,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "hablar",
+                "start": 5.52,
+                "end": 5.92,
+                "confidence": 0.9990037,
+                "speaker": 0,
+                "speaker_confidence": 0.61624676,
+                "punctuated_word": "hablar"
+              },
+              {
+                "word": "inglés",
+                "start": 5.92,
+                "end": 6.08,
+                "confidence": 0.9696859,
+                "speaker": 0,
+                "speaker_confidence": 0.61624676,
+                "punctuated_word": "inglés,"
+              },
+              {
+                "word": "vamos",
+                "start": 6.08,
+                "end": 6.3199997,
+                "confidence": 0.9988134,
+                "speaker": 0,
+                "speaker_confidence": 0.61624676,
+                "punctuated_word": "vamos"
+              },
+              {
+                "word": "a",
+                "start": 6.3199997,
+                "end": 6.3999996,
+                "confidence": 0.9860271,
+                "speaker": 0,
+                "speaker_confidence": 0.55948097,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "hablar",
+                "start": 6.3999996,
+                "end": 6.64,
+                "confidence": 0.9976666,
+                "speaker": 0,
+                "speaker_confidence": 0.55948097,
+                "punctuated_word": "hablar"
+              },
+              {
+                "word": "inglés",
+                "start": 6.64,
+                "end": 6.8799996,
+                "confidence": 0.75895095,
+                "speaker": 0,
+                "speaker_confidence": 0.55948097,
+                "punctuated_word": "inglés,"
+              },
+              {
+                "word": "si",
+                "start": 6.8799996,
+                "end": 7.04,
+                "confidence": 0.95633686,
+                "speaker": 0,
+                "speaker_confidence": 0.55948097,
+                "punctuated_word": "si"
+              },
+              {
+                "word": "vamos",
+                "start": 7.04,
+                "end": 7.2,
+                "confidence": 0.9990676,
+                "speaker": 0,
+                "speaker_confidence": 0.55948097,
+                "punctuated_word": "vamos"
+              },
+              {
+                "word": "a",
+                "start": 7.2,
+                "end": 7.2799997,
+                "confidence": 0.97054696,
+                "speaker": 0,
+                "speaker_confidence": 0.55948097,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "hablar",
+                "start": 7.2799997,
+                "end": 7.52,
+                "confidence": 0.99925977,
+                "speaker": 0,
+                "speaker_confidence": 0.55948097,
+                "punctuated_word": "hablar"
+              },
+              {
+                "word": "español",
+                "start": 7.52,
+                "end": 7.9199996,
+                "confidence": 0.9864917,
+                "speaker": 0,
+                "speaker_confidence": 0.55948097,
+                "punctuated_word": "español,"
+              },
+              {
+                "word": "vamos",
+                "start": 7.9199996,
+                "end": 8.04,
+                "confidence": 0.9989028,
+                "speaker": 0,
+                "speaker_confidence": 0.55948097,
+                "punctuated_word": "vamos"
+              },
+              {
+                "word": "a",
+                "start": 8.04,
+                "end": 8.16,
+                "confidence": 0.97638,
+                "speaker": 0,
+                "speaker_confidence": 0.55948097,
+                "punctuated_word": "a"
+              },
+              {
+                "word": "hablar",
+                "start": 8.16,
+                "end": 8.4,
+                "confidence": 0.99884063,
+                "speaker": 0,
+                "speaker_confidence": 0.55948097,
+                "punctuated_word": "hablar"
+              },
+              {
+                "word": "español",
+                "start": 8.4,
+                "end": 8.8,
+                "confidence": 0.9883472,
+                "speaker": 0,
+                "speaker_confidence": 0.55948097,
+                "punctuated_word": "español."
+              },
+              {
+                "word": "en",
+                "start": 8.8,
+                "end": 8.96,
+                "confidence": 0.3365147,
+                "speaker": 0,
+                "speaker_confidence": 0.55948097,
+                "punctuated_word": "¿En"
+              },
+              {
+                "word": "español",
+                "start": 8.96,
+                "end": 9.36,
+                "confidence": 0.249927,
+                "speaker": 0,
+                "speaker_confidence": 0.0576936,
+                "punctuated_word": "español"
+              },
+              {
+                "word": "español",
+                "start": 9.36,
+                "end": 9.84,
+                "confidence": 0.8462026,
+                "speaker": 0,
+                "speaker_confidence": 0.0576936,
+                "punctuated_word": "español?"
+              },
+              {
+                "word": "pues",
+                "start": 9.84,
+                "end": 10.08,
+                "confidence": 0.76041305,
+                "speaker": 0,
+                "speaker_confidence": 0.48685634,
+                "punctuated_word": "Pues,"
+              },
+              {
+                "word": "una",
+                "start": 10.08,
+                "end": 10.32,
+                "confidence": 0.7430765,
+                "speaker": 0,
+                "speaker_confidence": 0.48685634,
+                "punctuated_word": "una"
+              },
+              {
+                "word": "vez",
+                "start": 10.32,
+                "end": 10.48,
+                "confidence": 0.6814423,
+                "speaker": 0,
+                "speaker_confidence": 0.48685634,
+                "punctuated_word": "vez"
+              },
+              {
+                "word": "se",
+                "start": 10.48,
+                "end": 10.639999,
+                "confidence": 0.8349546,
+                "speaker": 0,
+                "speaker_confidence": 0.48685634,
+                "punctuated_word": "se"
+              },
+              {
+                "word": "puede",
+                "start": 10.639999,
+                "end": 10.8,
+                "confidence": 0.93231434,
+                "speaker": 0,
+                "speaker_confidence": 0.48685634,
+                "punctuated_word": "puede"
+              },
+              {
+                "word": "decir",
+                "start": 10.8,
+                "end": 11.2,
+                "confidence": 0.9502958,
+                "speaker": 0,
+                "speaker_confidence": 0.48685634,
+                "punctuated_word": "decir,"
+              },
+              {
+                "word": "yo",
+                "start": 11.2,
+                "end": 11.36,
+                "confidence": 0.2895806,
+                "speaker": 0,
+                "speaker_confidence": 0.48685634,
+                "punctuated_word": "yo"
+              },
+              {
+                "word": "venía",
+                "start": 11.36,
+                "end": 11.679999,
+                "confidence": 0.3674837,
+                "speaker": 0,
+                "speaker_confidence": 0.48685634,
+                "punctuated_word": "venía"
+              },
+              {
+                "word": "donde",
+                "start": 11.679999,
+                "end": 11.759999,
+                "confidence": 0.7911257,
+                "speaker": 0,
+                "speaker_confidence": 0.48685634,
+                "punctuated_word": "donde"
+              },
+              {
+                "word": "los",
+                "start": 11.759999,
+                "end": 12.259999,
+                "confidence": 0.7615782,
+                "speaker": 0,
+                "speaker_confidence": 0.48685634,
+                "punctuated_word": "Los"
+              },
+              {
+                "word": "ángeles",
+                "start": 12.4,
+                "end": 12.559999,
+                "confidence": 0.94376034,
+                "speaker": 0,
+                "speaker_confidence": 0.24429649,
+                "punctuated_word": "Ángeles,"
+              },
+              {
+                "word": "yo",
+                "start": 12.559999,
+                "end": 12.719999,
+                "confidence": 0.99394673,
+                "speaker": 0,
+                "speaker_confidence": 0.24429649,
+                "punctuated_word": "yo"
+              },
+              {
+                "word": "hablo",
+                "start": 12.719999,
+                "end": 12.96,
+                "confidence": 0.9977816,
+                "speaker": 0,
+                "speaker_confidence": 0.24429649,
+                "punctuated_word": "hablo"
+              },
+              {
+                "word": "lo",
+                "start": 12.96,
+                "end": 13.12,
+                "confidence": 0.9943184,
+                "speaker": 0,
+                "speaker_confidence": 0.24429649,
+                "punctuated_word": "lo"
+              },
+              {
+                "word": "que",
+                "start": 13.12,
+                "end": 13.28,
+                "confidence": 0.99923015,
+                "speaker": 0,
+                "speaker_confidence": 0.24429649,
+                "punctuated_word": "que"
+              },
+              {
+                "word": "se",
+                "start": 13.28,
+                "end": 13.36,
+                "confidence": 0.7560817,
+                "speaker": 0,
+                "speaker_confidence": 0.55954033,
+                "punctuated_word": "se"
+              },
+              {
+                "word": "llama",
+                "start": 13.36,
+                "end": 13.5199995,
+                "confidence": 0.9854989,
+                "speaker": 0,
+                "speaker_confidence": 0.55954033,
+                "punctuated_word": "llama"
+              },
+              {
+                "word": "spanglish",
+                "start": 13.5199995,
+                "end": 14.0199995,
+                "confidence": 0.774987,
+                "speaker": 0,
+                "speaker_confidence": 0.55954033,
+                "punctuated_word": "Spanglish,"
+              },
+              {
+                "word": "que",
+                "start": 14.48,
+                "end": 14.639999,
+                "confidence": 0.96484137,
+                "speaker": 0,
+                "speaker_confidence": 0.55954033,
+                "punctuated_word": "que"
+              },
+              {
+                "word": "you",
+                "start": 14.639999,
+                "end": 14.88,
+                "confidence": 0.7591644,
+                "speaker": 0,
+                "speaker_confidence": 0.55954033,
+                "punctuated_word": "you"
+              },
+              {
+                "word": "que",
+                "start": 14.88,
+                "end": 14.96,
+                "confidence": 0.91506535,
+                "speaker": 0,
+                "speaker_confidence": 0.55954033,
+                "punctuated_word": "que"
+              },
+              {
+                "word": "speak",
+                "start": 14.96,
+                "end": 15.369,
+                "confidence": 0.9958372,
+                "speaker": 0,
+                "speaker_confidence": 0.55954033,
+                "punctuated_word": "speak"
+              },
+              {
+                "word": "español",
+                "start": 15.689,
+                "end": 16.009,
+                "confidence": 0.93797594,
+                "speaker": 0,
+                "speaker_confidence": 0.55954033,
+                "punctuated_word": "español"
+              },
+              {
+                "word": "and",
+                "start": 16.009,
+                "end": 16.169,
+                "confidence": 0.6166399,
+                "speaker": 0,
+                "speaker_confidence": 0.55954033,
+                "punctuated_word": "and"
+              },
+              {
+                "word": "the",
+                "start": 16.169,
+                "end": 16.329,
+                "confidence": 0.41988686,
+                "speaker": 0,
+                "speaker_confidence": 0.50638145,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "end",
+                "start": 16.329,
+                "end": 16.489,
+                "confidence": 0.46827158,
+                "speaker": 0,
+                "speaker_confidence": 0.50638145,
+                "punctuated_word": "end"
+              },
+              {
+                "word": "english",
+                "start": 16.489,
+                "end": 16.809,
+                "confidence": 0.8876295,
+                "speaker": 0,
+                "speaker_confidence": 0.50638145,
+                "punctuated_word": "English"
+              },
+              {
+                "word": "at",
+                "start": 16.809,
+                "end": 16.889,
+                "confidence": 0.7593681,
+                "speaker": 0,
+                "speaker_confidence": 0.50638145,
+                "punctuated_word": "at"
+              },
+              {
+                "word": "the",
+                "start": 16.889,
+                "end": 16.969,
+                "confidence": 0.99163765,
+                "speaker": 0,
+                "speaker_confidence": 0.50638145,
+                "punctuated_word": "the"
+              },
+              {
+                "word": "same",
+                "start": 16.969,
+                "end": 17.369,
+                "confidence": 0.7578869,
+                "speaker": 0,
+                "speaker_confidence": 0.50638145,
+                "punctuated_word": "same"
+              },
+              {
+                "word": "tiempo",
+                "start": 17.369,
+                "end": 17.869,
+                "confidence": 0.86554253,
+                "speaker": 0,
+                "speaker_confidence": 0.50638145,
+                "punctuated_word": "tiempo."
+              }
+            ]
+          }
+        ],
+        "detected_language": "es",
+        "language_confidence": 0.8656188
+      }
+    ],
+    "utterances": [
+      {
+        "start": 0.08,
+        "end": 14.0199995,
+        "confidence": 0.86852646,
+        "channel": 0,
+        "transcript": "Yo siempre he tratado de hablar los dos idiomas, ¿no? Más más así, si vamos a hablar inglés, vamos a hablar inglés, si vamos a hablar español, vamos a hablar español. ¿En español español? Pues, una vez se puede decir, yo venía donde Los Ángeles, yo hablo lo que se llama Spanglish,",
+        "words": [
+          {
+            "word": "yo",
+            "start": 0.08,
+            "end": 0.24,
+            "confidence": 0.42555356,
+            "speaker": 0,
+            "speaker_confidence": 0.2745902,
+            "punctuated_word": "Yo"
+          },
+          {
+            "word": "siempre",
+            "start": 0.24,
+            "end": 0.74,
+            "confidence": 0.9947752,
+            "speaker": 0,
+            "speaker_confidence": 0.2745902,
+            "punctuated_word": "siempre"
+          },
+          {
+            "word": "he",
+            "start": 0.79999995,
+            "end": 0.96,
+            "confidence": 0.98613745,
+            "speaker": 0,
+            "speaker_confidence": 0.2745902,
+            "punctuated_word": "he"
+          },
+          {
+            "word": "tratado",
+            "start": 0.96,
+            "end": 1.4399999,
+            "confidence": 0.9963994,
+            "speaker": 0,
+            "speaker_confidence": 0.2745902,
+            "punctuated_word": "tratado"
+          },
+          {
+            "word": "de",
+            "start": 1.4399999,
+            "end": 1.52,
+            "confidence": 0.8565096,
+            "speaker": 0,
+            "speaker_confidence": 0.2745902,
+            "punctuated_word": "de"
+          },
+          {
+            "word": "hablar",
+            "start": 1.52,
+            "end": 1.68,
+            "confidence": 0.99888045,
+            "speaker": 0,
+            "speaker_confidence": 0.2745902,
+            "punctuated_word": "hablar"
+          },
+          {
+            "word": "los",
+            "start": 1.68,
+            "end": 1.76,
+            "confidence": 0.9967853,
+            "speaker": 0,
+            "speaker_confidence": 0.2745902,
+            "punctuated_word": "los"
+          },
+          {
+            "word": "dos",
+            "start": 1.76,
+            "end": 1.92,
+            "confidence": 0.99858874,
+            "speaker": 0,
+            "speaker_confidence": 0.61624676,
+            "punctuated_word": "dos"
+          },
+          {
+            "word": "idiomas",
+            "start": 1.92,
+            "end": 2.3999999,
+            "confidence": 0.94623125,
+            "speaker": 0,
+            "speaker_confidence": 0.61624676,
+            "punctuated_word": "idiomas,"
+          },
+          {
+            "word": "no",
+            "start": 2.3999999,
+            "end": 2.8999999,
+            "confidence": 0.99282885,
+            "speaker": 0,
+            "speaker_confidence": 0.61624676,
+            "punctuated_word": "¿no?"
+          },
+          {
+            "word": "más",
+            "start": 3.04,
+            "end": 3.54,
+            "confidence": 0.93487,
+            "speaker": 0,
+            "speaker_confidence": 0.61624676,
+            "punctuated_word": "Más"
+          },
+          {
+            "word": "más",
+            "start": 3.6799998,
+            "end": 4.18,
+            "confidence": 0.8765925,
+            "speaker": 0,
+            "speaker_confidence": 0.61624676,
+            "punctuated_word": "más"
+          },
+          {
+            "word": "así",
+            "start": 4.3199997,
+            "end": 4.8199997,
+            "confidence": 0.7018231,
+            "speaker": 0,
+            "speaker_confidence": 0.61624676,
+            "punctuated_word": "así,"
+          },
+          {
+            "word": "si",
+            "start": 4.96,
+            "end": 5.2799997,
+            "confidence": 0.94196445,
+            "speaker": 0,
+            "speaker_confidence": 0.61624676,
+            "punctuated_word": "si"
+          },
+          {
+            "word": "vamos",
+            "start": 5.2799997,
+            "end": 5.3999996,
+            "confidence": 0.99515533,
+            "speaker": 0,
+            "speaker_confidence": 0.61624676,
+            "punctuated_word": "vamos"
+          },
+          {
+            "word": "a",
+            "start": 5.3999996,
+            "end": 5.52,
+            "confidence": 0.94544303,
+            "speaker": 0,
+            "speaker_confidence": 0.61624676,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "hablar",
+            "start": 5.52,
+            "end": 5.92,
+            "confidence": 0.9990037,
+            "speaker": 0,
+            "speaker_confidence": 0.61624676,
+            "punctuated_word": "hablar"
+          },
+          {
+            "word": "inglés",
+            "start": 5.92,
+            "end": 6.08,
+            "confidence": 0.9696859,
+            "speaker": 0,
+            "speaker_confidence": 0.61624676,
+            "punctuated_word": "inglés,"
+          },
+          {
+            "word": "vamos",
+            "start": 6.08,
+            "end": 6.3199997,
+            "confidence": 0.9988134,
+            "speaker": 0,
+            "speaker_confidence": 0.61624676,
+            "punctuated_word": "vamos"
+          },
+          {
+            "word": "a",
+            "start": 6.3199997,
+            "end": 6.3999996,
+            "confidence": 0.9860271,
+            "speaker": 0,
+            "speaker_confidence": 0.55948097,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "hablar",
+            "start": 6.3999996,
+            "end": 6.64,
+            "confidence": 0.9976666,
+            "speaker": 0,
+            "speaker_confidence": 0.55948097,
+            "punctuated_word": "hablar"
+          },
+          {
+            "word": "inglés",
+            "start": 6.64,
+            "end": 6.8799996,
+            "confidence": 0.75895095,
+            "speaker": 0,
+            "speaker_confidence": 0.55948097,
+            "punctuated_word": "inglés,"
+          },
+          {
+            "word": "si",
+            "start": 6.8799996,
+            "end": 7.04,
+            "confidence": 0.95633686,
+            "speaker": 0,
+            "speaker_confidence": 0.55948097,
+            "punctuated_word": "si"
+          },
+          {
+            "word": "vamos",
+            "start": 7.04,
+            "end": 7.2,
+            "confidence": 0.9990676,
+            "speaker": 0,
+            "speaker_confidence": 0.55948097,
+            "punctuated_word": "vamos"
+          },
+          {
+            "word": "a",
+            "start": 7.2,
+            "end": 7.2799997,
+            "confidence": 0.97054696,
+            "speaker": 0,
+            "speaker_confidence": 0.55948097,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "hablar",
+            "start": 7.2799997,
+            "end": 7.52,
+            "confidence": 0.99925977,
+            "speaker": 0,
+            "speaker_confidence": 0.55948097,
+            "punctuated_word": "hablar"
+          },
+          {
+            "word": "español",
+            "start": 7.52,
+            "end": 7.9199996,
+            "confidence": 0.9864917,
+            "speaker": 0,
+            "speaker_confidence": 0.55948097,
+            "punctuated_word": "español,"
+          },
+          {
+            "word": "vamos",
+            "start": 7.9199996,
+            "end": 8.04,
+            "confidence": 0.9989028,
+            "speaker": 0,
+            "speaker_confidence": 0.55948097,
+            "punctuated_word": "vamos"
+          },
+          {
+            "word": "a",
+            "start": 8.04,
+            "end": 8.16,
+            "confidence": 0.97638,
+            "speaker": 0,
+            "speaker_confidence": 0.55948097,
+            "punctuated_word": "a"
+          },
+          {
+            "word": "hablar",
+            "start": 8.16,
+            "end": 8.4,
+            "confidence": 0.99884063,
+            "speaker": 0,
+            "speaker_confidence": 0.55948097,
+            "punctuated_word": "hablar"
+          },
+          {
+            "word": "español",
+            "start": 8.4,
+            "end": 8.8,
+            "confidence": 0.9883472,
+            "speaker": 0,
+            "speaker_confidence": 0.55948097,
+            "punctuated_word": "español."
+          },
+          {
+            "word": "en",
+            "start": 8.8,
+            "end": 8.96,
+            "confidence": 0.3365147,
+            "speaker": 0,
+            "speaker_confidence": 0.55948097,
+            "punctuated_word": "¿En"
+          },
+          {
+            "word": "español",
+            "start": 8.96,
+            "end": 9.36,
+            "confidence": 0.249927,
+            "speaker": 0,
+            "speaker_confidence": 0.0576936,
+            "punctuated_word": "español"
+          },
+          {
+            "word": "español",
+            "start": 9.36,
+            "end": 9.84,
+            "confidence": 0.8462026,
+            "speaker": 0,
+            "speaker_confidence": 0.0576936,
+            "punctuated_word": "español?"
+          },
+          {
+            "word": "pues",
+            "start": 9.84,
+            "end": 10.08,
+            "confidence": 0.76041305,
+            "speaker": 0,
+            "speaker_confidence": 0.48685634,
+            "punctuated_word": "Pues,"
+          },
+          {
+            "word": "una",
+            "start": 10.08,
+            "end": 10.32,
+            "confidence": 0.7430765,
+            "speaker": 0,
+            "speaker_confidence": 0.48685634,
+            "punctuated_word": "una"
+          },
+          {
+            "word": "vez",
+            "start": 10.32,
+            "end": 10.48,
+            "confidence": 0.6814423,
+            "speaker": 0,
+            "speaker_confidence": 0.48685634,
+            "punctuated_word": "vez"
+          },
+          {
+            "word": "se",
+            "start": 10.48,
+            "end": 10.639999,
+            "confidence": 0.8349546,
+            "speaker": 0,
+            "speaker_confidence": 0.48685634,
+            "punctuated_word": "se"
+          },
+          {
+            "word": "puede",
+            "start": 10.639999,
+            "end": 10.8,
+            "confidence": 0.93231434,
+            "speaker": 0,
+            "speaker_confidence": 0.48685634,
+            "punctuated_word": "puede"
+          },
+          {
+            "word": "decir",
+            "start": 10.8,
+            "end": 11.2,
+            "confidence": 0.9502958,
+            "speaker": 0,
+            "speaker_confidence": 0.48685634,
+            "punctuated_word": "decir,"
+          },
+          {
+            "word": "yo",
+            "start": 11.2,
+            "end": 11.36,
+            "confidence": 0.2895806,
+            "speaker": 0,
+            "speaker_confidence": 0.48685634,
+            "punctuated_word": "yo"
+          },
+          {
+            "word": "venía",
+            "start": 11.36,
+            "end": 11.679999,
+            "confidence": 0.3674837,
+            "speaker": 0,
+            "speaker_confidence": 0.48685634,
+            "punctuated_word": "venía"
+          },
+          {
+            "word": "donde",
+            "start": 11.679999,
+            "end": 11.759999,
+            "confidence": 0.7911257,
+            "speaker": 0,
+            "speaker_confidence": 0.48685634,
+            "punctuated_word": "donde"
+          },
+          {
+            "word": "los",
+            "start": 11.759999,
+            "end": 12.259999,
+            "confidence": 0.7615782,
+            "speaker": 0,
+            "speaker_confidence": 0.48685634,
+            "punctuated_word": "Los"
+          },
+          {
+            "word": "ángeles",
+            "start": 12.4,
+            "end": 12.559999,
+            "confidence": 0.94376034,
+            "speaker": 0,
+            "speaker_confidence": 0.24429649,
+            "punctuated_word": "Ángeles,"
+          },
+          {
+            "word": "yo",
+            "start": 12.559999,
+            "end": 12.719999,
+            "confidence": 0.99394673,
+            "speaker": 0,
+            "speaker_confidence": 0.24429649,
+            "punctuated_word": "yo"
+          },
+          {
+            "word": "hablo",
+            "start": 12.719999,
+            "end": 12.96,
+            "confidence": 0.9977816,
+            "speaker": 0,
+            "speaker_confidence": 0.24429649,
+            "punctuated_word": "hablo"
+          },
+          {
+            "word": "lo",
+            "start": 12.96,
+            "end": 13.12,
+            "confidence": 0.9943184,
+            "speaker": 0,
+            "speaker_confidence": 0.24429649,
+            "punctuated_word": "lo"
+          },
+          {
+            "word": "que",
+            "start": 13.12,
+            "end": 13.28,
+            "confidence": 0.99923015,
+            "speaker": 0,
+            "speaker_confidence": 0.24429649,
+            "punctuated_word": "que"
+          },
+          {
+            "word": "se",
+            "start": 13.28,
+            "end": 13.36,
+            "confidence": 0.7560817,
+            "speaker": 0,
+            "speaker_confidence": 0.55954033,
+            "punctuated_word": "se"
+          },
+          {
+            "word": "llama",
+            "start": 13.36,
+            "end": 13.5199995,
+            "confidence": 0.9854989,
+            "speaker": 0,
+            "speaker_confidence": 0.55954033,
+            "punctuated_word": "llama"
+          },
+          {
+            "word": "spanglish",
+            "start": 13.5199995,
+            "end": 14.0199995,
+            "confidence": 0.774987,
+            "speaker": 0,
+            "speaker_confidence": 0.55954033,
+            "punctuated_word": "Spanglish,"
+          }
+        ],
+        "speaker": 0,
+        "id": "46d2d2d2-cb89-44cd-bf91-3577d0412ee0"
+      },
+      {
+        "start": 14.48,
+        "end": 17.869,
+        "confidence": 0.7953652,
+        "channel": 0,
+        "transcript": "que you que speak español and the end English at the same tiempo.",
+        "words": [
+          {
+            "word": "que",
+            "start": 14.48,
+            "end": 14.639999,
+            "confidence": 0.96484137,
+            "speaker": 0,
+            "speaker_confidence": 0.55954033,
+            "punctuated_word": "que"
+          },
+          {
+            "word": "you",
+            "start": 14.639999,
+            "end": 14.88,
+            "confidence": 0.7591644,
+            "speaker": 0,
+            "speaker_confidence": 0.55954033,
+            "punctuated_word": "you"
+          },
+          {
+            "word": "que",
+            "start": 14.88,
+            "end": 14.96,
+            "confidence": 0.91506535,
+            "speaker": 0,
+            "speaker_confidence": 0.55954033,
+            "punctuated_word": "que"
+          },
+          {
+            "word": "speak",
+            "start": 14.96,
+            "end": 15.369,
+            "confidence": 0.9958372,
+            "speaker": 0,
+            "speaker_confidence": 0.55954033,
+            "punctuated_word": "speak"
+          },
+          {
+            "word": "español",
+            "start": 15.689,
+            "end": 16.009,
+            "confidence": 0.93797594,
+            "speaker": 0,
+            "speaker_confidence": 0.55954033,
+            "punctuated_word": "español"
+          },
+          {
+            "word": "and",
+            "start": 16.009,
+            "end": 16.169,
+            "confidence": 0.6166399,
+            "speaker": 0,
+            "speaker_confidence": 0.55954033,
+            "punctuated_word": "and"
+          },
+          {
+            "word": "the",
+            "start": 16.169,
+            "end": 16.329,
+            "confidence": 0.41988686,
+            "speaker": 0,
+            "speaker_confidence": 0.50638145,
+            "punctuated_word": "the"
+          },
+          {
+            "word": "end",
+            "start": 16.329,
+            "end": 16.489,
+            "confidence": 0.46827158,
+            "speaker": 0,
+            "speaker_confidence": 0.50638145,
+            "punctuated_word": "end"
+          },
+          {
+            "word": "english",
+            "start": 16.489,
+            "end": 16.809,
+            "confidence": 0.8876295,
+            "speaker": 0,
+            "speaker_confidence": 0.50638145,
+            "punctuated_word": "English"
+          },
+          {
+            "word": "at",
+            "start": 16.809,
+            "end": 16.889,
+            "confidence": 0.7593681,
+            "speaker": 0,
+            "speaker_confidence": 0.50638145,
+            "punctuated_word": "at"
+          },
+          {
+            "word": "the",
+            "start": 16.889,
+            "end": 16.969,
+            "confidence": 0.99163765,
+            "speaker": 0,
+            "speaker_confidence": 0.50638145,
+            "punctuated_word": "the"
+          },
+          {
+            "word": "same",
+            "start": 16.969,
+            "end": 17.369,
+            "confidence": 0.7578869,
+            "speaker": 0,
+            "speaker_confidence": 0.50638145,
+            "punctuated_word": "same"
+          },
+          {
+            "word": "tiempo",
+            "start": 17.369,
+            "end": 17.869,
+            "confidence": 0.86554253,
+            "speaker": 0,
+            "speaker_confidence": 0.50638145,
+            "punctuated_word": "tiempo."
+          }
+        ],
+        "speaker": 0,
+        "id": "e66619d1-ae09-47d7-a64b-11af48c4ad01"
+      }
+    ]
+  }
+}

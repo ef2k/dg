@@ -1,0 +1,38 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "Chinese",
+          "confidence": 0.5733134,
+          "words": [
+            {
+              "startTime": "0s",
+              "endTime": "0.400s",
+              "word": "Chinese"
+            }
+          ]
+        }
+      ],
+      "resultEndTime": "6.960s",
+      "languageCode": "en-us"
+    },
+    {
+      "alternatives": [
+        {
+          "words": [
+            {
+              "startTime": "0s",
+              "endTime": "0.400s",
+              "word": "Chinese",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "totalBilledTime": "7s",
+  "requestId": "555125236251100699"
+}

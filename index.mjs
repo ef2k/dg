@@ -11,7 +11,12 @@ const __dirname = path.dirname(__filename);
 const AUDIO_FILE_PATH = path.resolve(
   __dirname,
   "audio",
-  "output-italian-mixed.mp3"
+  // "output-italian-mixed.mp3"
+  // "output-spanish-single.mp3"
+  // "output-spanish-mixed.mp3"
+  // "output-chinese-mixed.mp3"
+  "output-chinese-single.mp3"
+  // "output-spanglish-single.mp3"
 );
 
 // Map of common audio file extensions to MIME types
@@ -38,10 +43,19 @@ async function transcribeDGAudio() {
 
     const response = await axios({
       method: "post",
-      url: `${DG_URL}?language=multi&model=nova-2&utterances=true&diarize=true&translate=true`,
+      url: `${DG_URL}`,
       headers: {
         Authorization: `Token ${DG_API_KEY}`,
         "Content-Type": contentType,
+      },
+      params: {
+        diarize: true,
+        detect_language: true,
+        language: "multi",
+        model: "nova-2",
+        numerals: true,
+        punctuate: true,
+        utterances: true,
       },
       data: audioData,
     });
@@ -117,6 +131,68 @@ async function transcribeWhisperAudio(translateToEnglish = false) {
   }
 }
 
+async function transcribeGoogleCloudAudio() {
+  const GOOGLE_CLOUD_API_KEY = process.env.GOOGLE_CLOUD_API_KEY;
+
+  try {
+    const audioData = fs.readFileSync(AUDIO_FILE_PATH).toString("base64");
+
+    const requestPayload = {
+      config: {
+        encoding: "MP3",
+        sampleRateHertz: 44100,
+        languageCode: "zh",
+        alternativeLanguageCodes: [
+          "zh-CN",
+          "zh-TW",
+          "es-ES",
+          "es-MX",
+          "es-US",
+          "it-IT",
+          "it-ME",
+        ],
+        diarizationConfig: {
+          enableSpeakerDiarization: true,
+          minSpeakerCount: 2,
+          maxSpeakerCount: 2,
+        },
+      },
+      audio: {
+        content: audioData,
+      },
+    };
+
+    const response = await axios.post(
+      `https://speech.googleapis.com/v1/speech:recognize?key=${GOOGLE_CLOUD_API_KEY}`,
+      requestPayload,
+      {
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    );
+
+    console.log(response.data);
+
+    const inputBaseName = path.basename(
+      AUDIO_FILE_PATH,
+      path.extname(AUDIO_FILE_PATH)
+    );
+    const outputPath = path.join(
+      OUTPUT_DIR,
+      `${inputBaseName}-google-cloud-${Date.now()}.json`
+    );
+    fs.writeFileSync(outputPath, JSON.stringify(response.data, null, 2));
+    console.log(`Response written to ${outputPath}`);
+  } catch (error) {
+    if (error.response && error.response.data) {
+      console.error("Error transcribing audio:", error.response.data);
+    } else {
+      console.error("Error transcribing audio:", error.message);
+    }
+  }
+}
+
 // support transcription through different services, accept a service as argument
 // and return the transcription
 async function transcribeAudio(service) {
@@ -124,6 +200,8 @@ async function transcribeAudio(service) {
     return transcribeDGAudio();
   } else if (service === "whisper") {
     return transcribeWhisperAudio(true);
+  } else if (service === "google") {
+    return transcribeGoogleCloudAudio();
   }
 }
 

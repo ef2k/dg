@@ -1,0 +1,409 @@
+{
+  "metadata": {
+    "transaction_key": "deprecated",
+    "request_id": "cd6dfb8a-2ce8-42f5-9945-01fb16def92e",
+    "sha256": "0c576cb18487cf221af2fe7c0a89dd3ffbdfad595c35439debfa4952083ec62c",
+    "created": "2024-11-02T03:23:44.560Z",
+    "duration": 7.032,
+    "channels": 1,
+    "models": [
+      "90aed297-6e9b-44d3-b230-7cba901c8b7a"
+    ],
+    "model_info": {
+      "90aed297-6e9b-44d3-b230-7cba901c8b7a": {
+        "name": "2-general-nova",
+        "version": "2024-05-10.30049",
+        "arch": "nova-2"
+      }
+    }
+  },
+  "results": {
+    "channels": [
+      {
+        "alternatives": [
+          {
+            "transcript": "欢 迎 你 好 这 里 是 1 1 2 报 奖 中 心 中 文 翻 译 服 务",
+            "confidence": 0.9941406,
+            "words": [
+              {
+                "word": "欢",
+                "start": 0.96,
+                "end": 1.12,
+                "confidence": 0.099243164,
+                "speaker": 0,
+                "speaker_confidence": 0.5966549,
+                "punctuated_word": "欢"
+              },
+              {
+                "word": "迎",
+                "start": 1.28,
+                "end": 1.4399999,
+                "confidence": 1,
+                "speaker": 0,
+                "speaker_confidence": 0.5966549,
+                "punctuated_word": "迎"
+              },
+              {
+                "word": "你",
+                "start": 1.52,
+                "end": 1.5999999,
+                "confidence": 0.6455078,
+                "speaker": 0,
+                "speaker_confidence": 0.5966549,
+                "punctuated_word": "你"
+              },
+              {
+                "word": "好",
+                "start": 1.68,
+                "end": 2,
+                "confidence": 0.85595703,
+                "speaker": 0,
+                "speaker_confidence": 0.5966549,
+                "punctuated_word": "好"
+              },
+              {
+                "word": "这",
+                "start": 2.1599998,
+                "end": 2.32,
+                "confidence": 0.8911133,
+                "speaker": 0,
+                "speaker_confidence": 0.57486445,
+                "punctuated_word": "这"
+              },
+              {
+                "word": "里",
+                "start": 2.3999999,
+                "end": 2.56,
+                "confidence": 0.82373047,
+                "speaker": 0,
+                "speaker_confidence": 0.57486445,
+                "punctuated_word": "里"
+              },
+              {
+                "word": "是",
+                "start": 2.6399999,
+                "end": 3.04,
+                "confidence": 0.9980469,
+                "speaker": 0,
+                "speaker_confidence": 0.57486445,
+                "punctuated_word": "是"
+              },
+              {
+                "word": "1",
+                "start": 3.12,
+                "end": 3.36,
+                "confidence": 0.97998047,
+                "speaker": 0,
+                "speaker_confidence": 0.57486445,
+                "punctuated_word": "1"
+              },
+              {
+                "word": "1",
+                "start": 3.4399998,
+                "end": 3.56,
+                "confidence": 1,
+                "speaker": 0,
+                "speaker_confidence": 0.57486445,
+                "punctuated_word": "1"
+              },
+              {
+                "word": "2",
+                "start": 3.6799998,
+                "end": 4.16,
+                "confidence": 0.9941406,
+                "speaker": 0,
+                "speaker_confidence": 0.57486445,
+                "punctuated_word": "2"
+              },
+              {
+                "word": "报",
+                "start": 4.24,
+                "end": 4.3599997,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 0.45307827,
+                "punctuated_word": "报"
+              },
+              {
+                "word": "奖",
+                "start": 4.48,
+                "end": 4.64,
+                "confidence": 0.7167969,
+                "speaker": 0,
+                "speaker_confidence": 0.45307827,
+                "punctuated_word": "奖"
+              },
+              {
+                "word": "中",
+                "start": 4.72,
+                "end": 4.84,
+                "confidence": 0.9980469,
+                "speaker": 0,
+                "speaker_confidence": 0.45307827,
+                "punctuated_word": "中"
+              },
+              {
+                "word": "心",
+                "start": 4.96,
+                "end": 5.2799997,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 0.45307827,
+                "punctuated_word": "心"
+              },
+              {
+                "word": "中",
+                "start": 5.3599997,
+                "end": 5.4799995,
+                "confidence": 0.99316406,
+                "speaker": 0,
+                "speaker_confidence": 0.5331525,
+                "punctuated_word": "中"
+              },
+              {
+                "word": "文",
+                "start": 5.6,
+                "end": 5.7599998,
+                "confidence": 0.99902344,
+                "speaker": 0,
+                "speaker_confidence": 0.5331525,
+                "punctuated_word": "文"
+              },
+              {
+                "word": "翻",
+                "start": 5.8399997,
+                "end": 5.96,
+                "confidence": 0.99609375,
+                "speaker": 0,
+                "speaker_confidence": 0.5331525,
+                "punctuated_word": "翻"
+              },
+              {
+                "word": "译",
+                "start": 6.08,
+                "end": 6.16,
+                "confidence": 0.98291016,
+                "speaker": 0,
+                "speaker_confidence": 0.5331525,
+                "punctuated_word": "译"
+              },
+              {
+                "word": "服",
+                "start": 6.24,
+                "end": 6.48,
+                "confidence": 0.42382812,
+                "speaker": 0,
+                "speaker_confidence": 0.5331525,
+                "punctuated_word": "服"
+              },
+              {
+                "word": "务",
+                "start": 6.56,
+                "end": 7.032,
+                "confidence": 0.9951172,
+                "speaker": 0,
+                "speaker_confidence": 0.5331525,
+                "punctuated_word": "务"
+              }
+            ]
+          }
+        ],
+        "detected_language": "zh",
+        "language_confidence": 0.9615421
+      }
+    ],
+    "utterances": [
+      {
+        "start": 0.96,
+        "end": 7.032,
+        "confidence": 0.86953735,
+        "channel": 0,
+        "transcript": "欢 迎 你 好 这 里 是 1 1 2 报 奖 中 心 中 文 翻 译 服 务",
+        "words": [
+          {
+            "word": "欢",
+            "start": 0.96,
+            "end": 1.12,
+            "confidence": 0.099243164,
+            "speaker": 0,
+            "speaker_confidence": 0.5966549,
+            "punctuated_word": "欢"
+          },
+          {
+            "word": "迎",
+            "start": 1.28,
+            "end": 1.4399999,
+            "confidence": 1,
+            "speaker": 0,
+            "speaker_confidence": 0.5966549,
+            "punctuated_word": "迎"
+          },
+          {
+            "word": "你",
+            "start": 1.52,
+            "end": 1.5999999,
+            "confidence": 0.6455078,
+            "speaker": 0,
+            "speaker_confidence": 0.5966549,
+            "punctuated_word": "你"
+          },
+          {
+            "word": "好",
+            "start": 1.68,
+            "end": 2,
+            "confidence": 0.85595703,
+            "speaker": 0,
+            "speaker_confidence": 0.5966549,
+            "punctuated_word": "好"
+          },
+          {
+            "word": "这",
+            "start": 2.1599998,
+            "end": 2.32,
+            "confidence": 0.8911133,
+            "speaker": 0,
+            "speaker_confidence": 0.57486445,
+            "punctuated_word": "这"
+          },
+          {
+            "word": "里",
+            "start": 2.3999999,
+            "end": 2.56,
+            "confidence": 0.82373047,
+            "speaker": 0,
+            "speaker_confidence": 0.57486445,
+            "punctuated_word": "里"
+          },
+          {
+            "word": "是",
+            "start": 2.6399999,
+            "end": 3.04,
+            "confidence": 0.9980469,
+            "speaker": 0,
+            "speaker_confidence": 0.57486445,
+            "punctuated_word": "是"
+          },
+          {
+            "word": "1",
+            "start": 3.12,
+            "end": 3.36,
+            "confidence": 0.97998047,
+            "speaker": 0,
+            "speaker_confidence": 0.57486445,
+            "punctuated_word": "1"
+          },
+          {
+            "word": "1",
+            "start": 3.4399998,
+            "end": 3.56,
+            "confidence": 1,
+            "speaker": 0,
+            "speaker_confidence": 0.57486445,
+            "punctuated_word": "1"
+          },
+          {
+            "word": "2",
+            "start": 3.6799998,
+            "end": 4.16,
+            "confidence": 0.9941406,
+            "speaker": 0,
+            "speaker_confidence": 0.57486445,
+            "punctuated_word": "2"
+          },
+          {
+            "word": "报",
+            "start": 4.24,
+            "end": 4.3599997,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 0.45307827,
+            "punctuated_word": "报"
+          },
+          {
+            "word": "奖",
+            "start": 4.48,
+            "end": 4.64,
+            "confidence": 0.7167969,
+            "speaker": 0,
+            "speaker_confidence": 0.45307827,
+            "punctuated_word": "奖"
+          },
+          {
+            "word": "中",
+            "start": 4.72,
+            "end": 4.84,
+            "confidence": 0.9980469,
+            "speaker": 0,
+            "speaker_confidence": 0.45307827,
+            "punctuated_word": "中"
+          },
+          {
+            "word": "心",
+            "start": 4.96,
+            "end": 5.2799997,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 0.45307827,
+            "punctuated_word": "心"
+          },
+          {
+            "word": "中",
+            "start": 5.3599997,
+            "end": 5.4799995,
+            "confidence": 0.99316406,
+            "speaker": 0,
+            "speaker_confidence": 0.5331525,
+            "punctuated_word": "中"
+          },
+          {
+            "word": "文",
+            "start": 5.6,
+            "end": 5.7599998,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 0.5331525,
+            "punctuated_word": "文"
+          },
+          {
+            "word": "翻",
+            "start": 5.8399997,
+            "end": 5.96,
+            "confidence": 0.99609375,
+            "speaker": 0,
+            "speaker_confidence": 0.5331525,
+            "punctuated_word": "翻"
+          },
+          {
+            "word": "译",
+            "start": 6.08,
+            "end": 6.16,
+            "confidence": 0.98291016,
+            "speaker": 0,
+            "speaker_confidence": 0.5331525,
+            "punctuated_word": "译"
+          },
+          {
+            "word": "服",
+            "start": 6.24,
+            "end": 6.48,
+            "confidence": 0.42382812,
+            "speaker": 0,
+            "speaker_confidence": 0.5331525,
+            "punctuated_word": "服"
+          },
+          {
+            "word": "务",
+            "start": 6.56,
+            "end": 7.032,
+            "confidence": 0.9951172,
+            "speaker": 0,
+            "speaker_confidence": 0.5331525,
+            "punctuated_word": "务"
+          }
+        ],
+        "speaker": 0,
+        "id": "df0ff05f-2cf6-4af5-9c97-8053e0bfb2f6"
+      }
+    ]
+  }
+}
