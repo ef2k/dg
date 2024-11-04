@@ -30,6 +30,74 @@ const MIME_TYPES = {
 
 const OUTPUT_DIR = path.resolve(__dirname, "output");
 
+async function translateToEnglish(text, language, service = "google") {
+  if (service === "google") {
+    const GOOGLE_CLOUD_API_KEY = process.env.GOOGLE_CLOUD_API_KEY;
+    const GOOGLE_CLOUD_TRANSLATION_URL =
+      "https://translation.googleapis.com/language/translate/v2";
+
+    try {
+      const response = await axios.post(
+        `${GOOGLE_CLOUD_TRANSLATION_URL}?key=${GOOGLE_CLOUD_API_KEY}`,
+        {
+          q: text,
+          target: "en",
+          source: language,
+        }
+      );
+      return response.data.data.translations[0].translatedText;
+    } catch (error) {
+      console.error("Error translating to English:");
+      if (error.response) {
+        console.error("Status:", error.response.status);
+        console.error("Data:", error.response.data);
+      } else {
+        console.error(error.message);
+      }
+      return text;
+    }
+  } else if (service === "openai") {
+    // translate to English using OpenAI GPT
+    const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+    const OPENAI_TRANSLATION_URL = "https://api.openai.com/v1/chat/completions";
+
+    try {
+      const response = await axios({
+        url: OPENAI_TRANSLATION_URL,
+        method: "post",
+        headers: {
+          Authorization: `Bearer ${OPENAI_API_KEY}`,
+        },
+        data: {
+          model: "gpt-4",
+          messages: [
+            {
+              role: "system",
+              content:
+                "You are a translator. Translate the text to English. Only respond with the translation, nothing else.",
+            },
+            {
+              role: "user",
+              content: text,
+            },
+          ],
+        },
+      });
+
+      return response.data.choices[0].message.content.trim();
+    } catch (error) {
+      console.error("Error translating to English:");
+      if (error.response) {
+        console.error("Status:", error.response.status);
+        console.error("Data:", error.response.data);
+      } else {
+        console.error(error.message);
+      }
+      return text; // Return original text if translation fails
+    }
+  }
+}
+
 async function transcribeDGAudio() {
   const DG_API_KEY = process.env.DG_API_KEY;
   const DG_URL = process.env.DG_URL;
@@ -55,10 +123,25 @@ async function transcribeDGAudio() {
         model: "nova-2",
         numerals: true,
         punctuate: true,
-        utterances: true,
+        // utterances: true,
       },
       data: audioData,
     });
+
+    // When the response's results.channels[0].detected_language is not "en",
+    // we need to translate the response.channels[0].alternatives[0].transcript to English
+    // we'll save the translated transcript in a new field called translated_transcript
+    // we'll use Google Cloud Translation API for this.
+    if (response.data.results.channels[0].detected_language !== "en") {
+      console.log("Translating to English");
+      const translatedTranscript = await translateToEnglish(
+        response.data.results.channels[0].alternatives[0].transcript,
+        response.data.results.channels[0].detected_language,
+        "openai"
+      );
+      response.data.results.channels[0].alternatives[0].translated_transcript =
+        translatedTranscript;
+    }
 
     // Create output directory if it doesn't exist
     if (!fs.existsSync(OUTPUT_DIR)) {
@@ -74,13 +157,14 @@ async function transcribeDGAudio() {
 
     // Write the response to the output file
     fs.writeFileSync(outputPath, JSON.stringify(response.data, null, 2));
+
     console.log(`Response written to ${outputPath}`);
   } catch (error) {
     console.error("Error transcribing audio:", error);
   }
 }
 
-async function transcribeWhisperAudio(translateToEnglish = false) {
+async function transcribeWhisperAudio(shouldTranslate = false) {
   const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
   try {
     const audioData = fs.createReadStream(AUDIO_FILE_PATH);
@@ -91,7 +175,7 @@ async function transcribeWhisperAudio(translateToEnglish = false) {
     formData.append("model", "whisper-1");
 
     // Choose endpoint based on translation preference
-    const endpoint = translateToEnglish
+    const endpoint = shouldTranslate
       ? "https://api.openai.com/v1/audio/translations"
       : "https://api.openai.com/v1/audio/transcriptions";
 
@@ -117,7 +201,7 @@ async function transcribeWhisperAudio(translateToEnglish = false) {
     const outputPath = path.join(
       OUTPUT_DIR,
       `${inputBaseName}-whisper${
-        translateToEnglish ? "-translated" : ""
+        shouldTranslate ? "-translated" : ""
       }-${Date.now()}.json`
     );
 

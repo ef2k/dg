@@ -1,0 +1,351 @@
+{
+  "results": [
+    {
+      "alternatives": [
+        {
+          "transcript": "你好我要一杯英式红茶",
+          "confidence": 0.91214097,
+          "words": [
+            {
+              "startTime": "0s",
+              "endTime": "0.500s",
+              "word": "你"
+            },
+            {
+              "startTime": "0.500s",
+              "endTime": "0.700s",
+              "word": "好"
+            },
+            {
+              "startTime": "0.700s",
+              "endTime": "0.900s",
+              "word": "我"
+            },
+            {
+              "startTime": "0.900s",
+              "endTime": "5.400s",
+              "word": "要"
+            },
+            {
+              "startTime": "5.400s",
+              "endTime": "5.600s",
+              "word": "一"
+            },
+            {
+              "startTime": "5.600s",
+              "endTime": "5.800s",
+              "word": "杯"
+            },
+            {
+              "startTime": "5.800s",
+              "endTime": "6.100s",
+              "word": "英"
+            },
+            {
+              "startTime": "6.100s",
+              "endTime": "6.300s",
+              "word": "式"
+            },
+            {
+              "startTime": "6.300s",
+              "endTime": "6.500s",
+              "word": "红"
+            },
+            {
+              "startTime": "6.500s",
+              "endTime": "6.600s",
+              "word": "茶"
+            }
+          ]
+        }
+      ],
+      "resultEndTime": "8.790s",
+      "languageCode": "cmn-hans-cn"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": "你会什么会员没有会啊",
+          "confidence": 0.85869664,
+          "words": [
+            {
+              "startTime": "10.100s",
+              "endTime": "12.600s",
+              "word": "你"
+            },
+            {
+              "startTime": "12.600s",
+              "endTime": "12.700s",
+              "word": "会"
+            },
+            {
+              "startTime": "12.700s",
+              "endTime": "13.500s",
+              "word": "什"
+            },
+            {
+              "startTime": "13.500s",
+              "endTime": "13.700s",
+              "word": "么"
+            },
+            {
+              "startTime": "13.700s",
+              "endTime": "13.800s",
+              "word": "会"
+            },
+            {
+              "startTime": "13.800s",
+              "endTime": "14.100s",
+              "word": "员"
+            },
+            {
+              "startTime": "14.100s",
+              "endTime": "14.800s",
+              "word": "没"
+            },
+            {
+              "startTime": "14.800s",
+              "endTime": "14.800s",
+              "word": "有"
+            },
+            {
+              "startTime": "14.800s",
+              "endTime": "15.100s",
+              "word": "会"
+            },
+            {
+              "startTime": "15.100s",
+              "endTime": "15.200s",
+              "word": "啊"
+            }
+          ]
+        }
+      ],
+      "resultEndTime": "16.330s",
+      "languageCode": "cmn-hans-cn"
+    },
+    {
+      "alternatives": [
+        {
+          "transcript": "那说你要说",
+          "confidence": 0.72082734,
+          "words": [
+            {
+              "startTime": "17.100s",
+              "endTime": "17.500s",
+              "word": "那"
+            },
+            {
+              "startTime": "17.500s",
+              "endTime": "17.700s",
+              "word": "说"
+            },
+            {
+              "startTime": "17.700s",
+              "endTime": "17.700s",
+              "word": "你"
+            },
+            {
+              "startTime": "17.700s",
+              "endTime": "17.900s",
+              "word": "要"
+            },
+            {
+              "startTime": "17.900s",
+              "endTime": "18s",
+              "word": "说"
+            }
+          ]
+        }
+      ],
+      "resultEndTime": "22.970s",
+      "languageCode": "cmn-hans-cn"
+    },
+    {
+      "alternatives": [
+        {
+          "words": [
+            {
+              "startTime": "0s",
+              "endTime": "0.500s",
+              "word": "你",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "0.500s",
+              "endTime": "0.700s",
+              "word": "好",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "0.700s",
+              "endTime": "0.900s",
+              "word": "我",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "0.900s",
+              "endTime": "5.400s",
+              "word": "要",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "5.400s",
+              "endTime": "5.600s",
+              "word": "一",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "5.600s",
+              "endTime": "5.800s",
+              "word": "杯",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "5.800s",
+              "endTime": "6.100s",
+              "word": "英",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "6.100s",
+              "endTime": "6.300s",
+              "word": "式",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "6.300s",
+              "endTime": "6.500s",
+              "word": "红",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "6.500s",
+              "endTime": "6.600s",
+              "word": "茶",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "10.100s",
+              "endTime": "12.600s",
+              "word": "你",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "12.600s",
+              "endTime": "12.700s",
+              "word": "会",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "12.700s",
+              "endTime": "13.500s",
+              "word": "什",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "13.500s",
+              "endTime": "13.700s",
+              "word": "么",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "13.700s",
+              "endTime": "13.800s",
+              "word": "会",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "13.800s",
+              "endTime": "14.100s",
+              "word": "员",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "14.100s",
+              "endTime": "14.800s",
+              "word": "没",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "14.800s",
+              "endTime": "14.800s",
+              "word": "有",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "14.800s",
+              "endTime": "15.100s",
+              "word": "会",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "15.100s",
+              "endTime": "15.200s",
+              "word": "啊",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "17.100s",
+              "endTime": "17.500s",
+              "word": "那",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "17.500s",
+              "endTime": "17.700s",
+              "word": "说",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "17.700s",
+              "endTime": "17.700s",
+              "word": "你",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "17.700s",
+              "endTime": "17.900s",
+              "word": "要",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            },
+            {
+              "startTime": "17.900s",
+              "endTime": "18s",
+              "word": "说",
+              "speakerTag": 1,
+              "speakerLabel": "1"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "totalBilledTime": "23s",
+  "requestId": "3085273873309597117",
+  "usingLegacyModels": true
+}
