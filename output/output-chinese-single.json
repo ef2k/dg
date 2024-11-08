@@ -1,9 +1,9 @@
 {
   "metadata": {
     "transaction_key": "deprecated",
-    "request_id": "d39584f9-f8f7-4e5c-b1ff-f93f1529310d",
+    "request_id": "4058047d-f5b3-41d8-b4da-8a7988f86df3",
     "sha256": "ab0804500e2bbaa3043d8d947895c59bda56619b41154709cadb9af5b9960fb0",
-    "created": "2024-11-04T01:32:47.238Z",
+    "created": "2024-11-07T13:45:54.055Z",
     "duration": 23.04,
     "channels": 1,
     "models": [
@@ -23,7 +23,7 @@
         "alternatives": [
           {
             "transcript": "您 好 我 要 一 杯 英 式 红 茶 会 员 没 有 会 员 但 说 明 阿 叔 对 可 以 啦 先 杀 人 注 意 哦 谢 谢",
-            "confidence": 0.77441406,
+            "confidence": 0.76464844,
             "words": [
               {
                 "word": "您",
@@ -31,7 +31,7 @@
                 "end": 0.9,
                 "confidence": 0.62597656,
                 "speaker": 0,
-                "speaker_confidence": 0.35508364,
+                "speaker_confidence": 0.32013345,
                 "punctuated_word": "您"
               },
               {
@@ -40,16 +40,16 @@
                 "end": 3.1399999,
                 "confidence": 0.99902344,
                 "speaker": 0,
-                "speaker_confidence": 0.3122669,
+                "speaker_confidence": 0.30074233,
                 "punctuated_word": "好"
               },
               {
                 "word": "我",
                 "start": 4.88,
-                "end": 5.12,
-                "confidence": 0.32543945,
+                "end": 5.04,
+                "confidence": 0.32592773,
                 "speaker": 0,
-                "speaker_confidence": 0.17956889,
+                "speaker_confidence": 0.14737612,
                 "punctuated_word": "我"
               },
               {
@@ -58,7 +58,7 @@
                 "end": 5.44,
                 "confidence": 0.9902344,
                 "speaker": 0,
-                "speaker_confidence": 0.17956889,
+                "speaker_confidence": 0.14737612,
                 "punctuated_word": "要"
               },
               {
@@ -67,7 +67,7 @@
                 "end": 5.6,
                 "confidence": 0.99121094,
                 "speaker": 0,
-                "speaker_confidence": 0.17956889,
+                "speaker_confidence": 0.14737612,
                 "punctuated_word": "一"
               },
               {
@@ -76,16 +76,16 @@
                 "end": 5.84,
                 "confidence": 0.99902344,
                 "speaker": 0,
-                "speaker_confidence": 0.17956889,
+                "speaker_confidence": 0.14737612,
                 "punctuated_word": "杯"
               },
               {
                 "word": "英",
                 "start": 6,
                 "end": 6.08,
-                "confidence": 0.5361328,
+                "confidence": 0.5371094,
                 "speaker": 0,
-                "speaker_confidence": 0.17956889,
+                "speaker_confidence": 0.14737612,
                 "punctuated_word": "英"
               },
               {
@@ -94,7 +94,7 @@
                 "end": 6.3999996,
                 "confidence": 0.99121094,
                 "speaker": 0,
-                "speaker_confidence": 0.17956889,
+                "speaker_confidence": 0.14737612,
                 "punctuated_word": "式"
               },
               {
@@ -103,133 +103,133 @@
                 "end": 6.64,
                 "confidence": 0.98828125,
                 "speaker": 0,
-                "speaker_confidence": 0.17956889,
+                "speaker_confidence": 0.14737612,
                 "punctuated_word": "红"
               },
               {
                 "word": "茶",
-                "start": 6.89,
-                "end": 7.39,
-                "confidence": 0.5673828,
+                "start": 6.72,
+                "end": 7.22,
+                "confidence": 0.56347656,
                 "speaker": 0,
-                "speaker_confidence": 0.17956889,
+                "speaker_confidence": 0.14737612,
                 "punctuated_word": "茶"
               },
               {
                 "word": "会",
-                "start": 12.445001,
-                "end": 12.685,
-                "confidence": 0.23571777,
+                "start": 13.705,
+                "end": 13.925,
+                "confidence": 0.2298584,
                 "speaker": 0,
-                "speaker_confidence": 0.34302515,
+                "speaker_confidence": 0.14585501,
                 "punctuated_word": "会"
               },
               {
                 "word": "员",
-                "start": 12.765,
-                "end": 13.265,
-                "confidence": 0.8071289,
+                "start": 14.145,
+                "end": 14.365,
+                "confidence": 0.7998047,
                 "speaker": 0,
-                "speaker_confidence": 0.34302515,
+                "speaker_confidence": 0.14585501,
                 "punctuated_word": "员"
               },
               {
                 "word": "没",
                 "start": 14.445,
                 "end": 14.605,
-                "confidence": 0.35668945,
+                "confidence": 0.38916016,
                 "speaker": 0,
-                "speaker_confidence": 0.34302515,
+                "speaker_confidence": 0.3351276,
                 "punctuated_word": "没"
               },
               {
                 "word": "有",
                 "start": 14.765,
                 "end": 14.845,
-                "confidence": 0.98828125,
+                "confidence": 0.9892578,
                 "speaker": 0,
-                "speaker_confidence": 0.3869453,
+                "speaker_confidence": 0.3351276,
                 "punctuated_word": "有"
               },
               {
                 "word": "会",
                 "start": 14.925,
                 "end": 15.005,
-                "confidence": 0.9980469,
+                "confidence": 0.9970703,
                 "speaker": 0,
-                "speaker_confidence": 0.3869453,
+                "speaker_confidence": 0.3351276,
                 "punctuated_word": "会"
               },
               {
                 "word": "员",
                 "start": 15.085,
                 "end": 15.585,
-                "confidence": 1,
+                "confidence": 0.9980469,
                 "speaker": 0,
-                "speaker_confidence": 0.3869453,
+                "speaker_confidence": 0.3351276,
                 "punctuated_word": "员"
               },
               {
                 "word": "但",
                 "start": 17.165,
                 "end": 17.405,
-                "confidence": 0.6513672,
+                "confidence": 0.6489258,
                 "speaker": 0,
-                "speaker_confidence": 0.074956715,
+                "speaker_confidence": 0.10657078,
                 "punctuated_word": "但"
               },
               {
                 "word": "说",
                 "start": 17.485,
                 "end": 17.605,
-                "confidence": 0.81640625,
+                "confidence": 0.8173828,
                 "speaker": 0,
-                "speaker_confidence": 0.074956715,
+                "speaker_confidence": 0.10657078,
                 "punctuated_word": "说"
               },
               {
                 "word": "明",
                 "start": 17.725,
                 "end": 17.805,
-                "confidence": 0.5839844,
+                "confidence": 0.59716797,
                 "speaker": 0,
-                "speaker_confidence": 0,
+                "speaker_confidence": 0.06550223,
                 "punctuated_word": "明"
               },
               {
                 "word": "阿",
                 "start": 17.885,
                 "end": 17.965,
-                "confidence": 0.45507812,
+                "confidence": 0.45703125,
                 "speaker": 0,
-                "speaker_confidence": 0,
+                "speaker_confidence": 0.06550223,
                 "punctuated_word": "阿"
               },
               {
                 "word": "叔",
                 "start": 18.045,
                 "end": 18.445,
-                "confidence": 0.5991211,
+                "confidence": 0.5883789,
                 "speaker": 0,
-                "speaker_confidence": 0,
+                "speaker_confidence": 0.06550223,
                 "punctuated_word": "叔"
               },
               {
                 "word": "对",
                 "start": 18.685,
-                "end": 19.185,
+                "end": 19.005001,
                 "confidence": 0.3684082,
                 "speaker": 0,
-                "speaker_confidence": 0.2516868,
+                "speaker_confidence": 0.2580338,
                 "punctuated_word": "对"
               },
               {
                 "word": "可",
                 "start": 19.325,
                 "end": 19.825,
-                "confidence": 0.7973633,
+                "confidence": 0.7890625,
                 "speaker": 0,
-                "speaker_confidence": 0.2516868,
+                "speaker_confidence": 0.2580338,
                 "punctuated_word": "可"
               },
               {
@@ -238,52 +238,52 @@
                 "end": 20.685001,
                 "confidence": 0.98828125,
                 "speaker": 0,
-                "speaker_confidence": 0.05178374,
+                "speaker_confidence": 0.21295816,
                 "punctuated_word": "以"
               },
               {
                 "word": "啦",
                 "start": 20.765,
                 "end": 20.925,
-                "confidence": 0.57421875,
+                "confidence": 0.58984375,
                 "speaker": 0,
-                "speaker_confidence": 0.05178374,
+                "speaker_confidence": 0.21295816,
                 "punctuated_word": "啦"
               },
               {
                 "word": "先",
                 "start": 21.085,
                 "end": 21.244999,
-                "confidence": 0.77441406,
+                "confidence": 0.76464844,
                 "speaker": 0,
-                "speaker_confidence": 0.050490677,
+                "speaker_confidence": 0.06452453,
                 "punctuated_word": "先"
               },
               {
                 "word": "杀",
                 "start": 21.325,
                 "end": 21.405,
-                "confidence": 0.7319336,
+                "confidence": 0.7338867,
                 "speaker": 0,
-                "speaker_confidence": 0.050490677,
+                "speaker_confidence": 0.06452453,
                 "punctuated_word": "杀"
               },
               {
                 "word": "人",
                 "start": 21.485,
                 "end": 21.565,
-                "confidence": 0.18249512,
+                "confidence": 0.18554688,
                 "speaker": 0,
-                "speaker_confidence": 0.013394237,
+                "speaker_confidence": 0.03025198,
                 "punctuated_word": "人"
               },
               {
                 "word": "注",
                 "start": 21.645,
                 "end": 21.725,
-                "confidence": 0.4267578,
+                "confidence": 0.42797852,
                 "speaker": 0,
-                "speaker_confidence": 0.013394237,
+                "speaker_confidence": 0.03025198,
                 "punctuated_word": "注"
               },
               {
@@ -292,16 +292,16 @@
                 "end": 21.965,
                 "confidence": 1,
                 "speaker": 0,
-                "speaker_confidence": 0.013394237,
+                "speaker_confidence": 0.03025198,
                 "punctuated_word": "意"
               },
               {
                 "word": "哦",
                 "start": 22.045,
                 "end": 22.205,
-                "confidence": 0.38085938,
+                "confidence": 0.3786621,
                 "speaker": 0,
-                "speaker_confidence": 0.20612043,
+                "speaker_confidence": 0.15270793,
                 "punctuated_word": "哦"
               },
               {
@@ -310,7 +310,7 @@
                 "end": 22.525,
                 "confidence": 0.9951172,
                 "speaker": 0,
-                "speaker_confidence": 0.20612043,
+                "speaker_confidence": 0.15270793,
                 "punctuated_word": "谢"
               },
               {
@@ -319,15 +319,387 @@
                 "end": 23.04,
                 "confidence": 1,
                 "speaker": 0,
-                "speaker_confidence": 0.20612043,
+                "speaker_confidence": 0.15270793,
                 "punctuated_word": "谢"
               }
             ],
-            "translated_transcript": "Hello, I want a cup of English black tea. Do you have a membership? I don't have a membership, but let's see, Uncle Ah can do it. Be careful when murdering someone first. Thank you."
+            "summaries": [
+              {
+                "summary": "您 好 我 要 一 杯 英 式 红 茶 会 员 没 有    会  ‘� 阿   明   “”  “’” ””, ” ’,  ” ”,” and ”\"”.",
+                "start_word": 0,
+                "end_word": 33
+              }
+            ],
+            "translated_transcript": "Hello, I want a cup of British black tea. No membership, but Uncle Ah explained that it's okay. First, kill someone. Be careful. Thank you."
           }
         ],
         "detected_language": "zh",
-        "language_confidence": 0.6469698
+        "language_confidence": 0.64150345
+      }
+    ],
+    "utterances": [
+      {
+        "start": 0.39999998,
+        "end": 0.9,
+        "confidence": 0.62597656,
+        "channel": 0,
+        "transcript": "您",
+        "words": [
+          {
+            "word": "您",
+            "start": 0.39999998,
+            "end": 0.9,
+            "confidence": 0.62597656,
+            "speaker": 0,
+            "speaker_confidence": 0.32013345,
+            "punctuated_word": "您"
+          }
+        ],
+        "speaker": 0,
+        "id": "f9a9f99a-b181-437a-9050-8adbd1d3b70e"
+      },
+      {
+        "start": 2.6399999,
+        "end": 3.1399999,
+        "confidence": 0.99902344,
+        "channel": 0,
+        "transcript": "好",
+        "words": [
+          {
+            "word": "好",
+            "start": 2.6399999,
+            "end": 3.1399999,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 0.30074233,
+            "punctuated_word": "好"
+          }
+        ],
+        "speaker": 0,
+        "id": "0fd22d22-a5cc-4eba-94b0-a2fbba255731"
+      },
+      {
+        "start": 4.88,
+        "end": 7.22,
+        "confidence": 0.7983093,
+        "channel": 0,
+        "transcript": "我 要 一 杯 英 式 红 茶",
+        "words": [
+          {
+            "word": "我",
+            "start": 4.88,
+            "end": 5.04,
+            "confidence": 0.32592773,
+            "speaker": 0,
+            "speaker_confidence": 0.14737612,
+            "punctuated_word": "我"
+          },
+          {
+            "word": "要",
+            "start": 5.2,
+            "end": 5.44,
+            "confidence": 0.9902344,
+            "speaker": 0,
+            "speaker_confidence": 0.14737612,
+            "punctuated_word": "要"
+          },
+          {
+            "word": "一",
+            "start": 5.52,
+            "end": 5.6,
+            "confidence": 0.99121094,
+            "speaker": 0,
+            "speaker_confidence": 0.14737612,
+            "punctuated_word": "一"
+          },
+          {
+            "word": "杯",
+            "start": 5.68,
+            "end": 5.84,
+            "confidence": 0.99902344,
+            "speaker": 0,
+            "speaker_confidence": 0.14737612,
+            "punctuated_word": "杯"
+          },
+          {
+            "word": "英",
+            "start": 6,
+            "end": 6.08,
+            "confidence": 0.5371094,
+            "speaker": 0,
+            "speaker_confidence": 0.14737612,
+            "punctuated_word": "英"
+          },
+          {
+            "word": "式",
+            "start": 6.16,
+            "end": 6.3999996,
+            "confidence": 0.99121094,
+            "speaker": 0,
+            "speaker_confidence": 0.14737612,
+            "punctuated_word": "式"
+          },
+          {
+            "word": "红",
+            "start": 6.48,
+            "end": 6.64,
+            "confidence": 0.98828125,
+            "speaker": 0,
+            "speaker_confidence": 0.14737612,
+            "punctuated_word": "红"
+          },
+          {
+            "word": "茶",
+            "start": 6.72,
+            "end": 7.22,
+            "confidence": 0.56347656,
+            "speaker": 0,
+            "speaker_confidence": 0.14737612,
+            "punctuated_word": "茶"
+          }
+        ],
+        "speaker": 0,
+        "id": "8d1f9536-cf17-4245-8fe4-33e2c03d6cca"
+      },
+      {
+        "start": 13.705,
+        "end": 15.585,
+        "confidence": 0.7338664,
+        "channel": 0,
+        "transcript": "会 员 没 有 会 员",
+        "words": [
+          {
+            "word": "会",
+            "start": 13.705,
+            "end": 13.925,
+            "confidence": 0.2298584,
+            "speaker": 0,
+            "speaker_confidence": 0.14585501,
+            "punctuated_word": "会"
+          },
+          {
+            "word": "员",
+            "start": 14.145,
+            "end": 14.365,
+            "confidence": 0.7998047,
+            "speaker": 0,
+            "speaker_confidence": 0.14585501,
+            "punctuated_word": "员"
+          },
+          {
+            "word": "没",
+            "start": 14.445,
+            "end": 14.605,
+            "confidence": 0.38916016,
+            "speaker": 0,
+            "speaker_confidence": 0.3351276,
+            "punctuated_word": "没"
+          },
+          {
+            "word": "有",
+            "start": 14.765,
+            "end": 14.845,
+            "confidence": 0.9892578,
+            "speaker": 0,
+            "speaker_confidence": 0.3351276,
+            "punctuated_word": "有"
+          },
+          {
+            "word": "会",
+            "start": 14.925,
+            "end": 15.005,
+            "confidence": 0.9970703,
+            "speaker": 0,
+            "speaker_confidence": 0.3351276,
+            "punctuated_word": "会"
+          },
+          {
+            "word": "员",
+            "start": 15.085,
+            "end": 15.585,
+            "confidence": 0.9980469,
+            "speaker": 0,
+            "speaker_confidence": 0.3351276,
+            "punctuated_word": "员"
+          }
+        ],
+        "speaker": 0,
+        "id": "82737804-14c2-4304-8a31-a829c2328baf"
+      },
+      {
+        "start": 17.165,
+        "end": 19.825,
+        "confidence": 0.6094796,
+        "channel": 0,
+        "transcript": "但 说 明 阿 叔 对 可",
+        "words": [
+          {
+            "word": "但",
+            "start": 17.165,
+            "end": 17.405,
+            "confidence": 0.6489258,
+            "speaker": 0,
+            "speaker_confidence": 0.10657078,
+            "punctuated_word": "但"
+          },
+          {
+            "word": "说",
+            "start": 17.485,
+            "end": 17.605,
+            "confidence": 0.8173828,
+            "speaker": 0,
+            "speaker_confidence": 0.10657078,
+            "punctuated_word": "说"
+          },
+          {
+            "word": "明",
+            "start": 17.725,
+            "end": 17.805,
+            "confidence": 0.59716797,
+            "speaker": 0,
+            "speaker_confidence": 0.06550223,
+            "punctuated_word": "明"
+          },
+          {
+            "word": "阿",
+            "start": 17.885,
+            "end": 17.965,
+            "confidence": 0.45703125,
+            "speaker": 0,
+            "speaker_confidence": 0.06550223,
+            "punctuated_word": "阿"
+          },
+          {
+            "word": "叔",
+            "start": 18.045,
+            "end": 18.445,
+            "confidence": 0.5883789,
+            "speaker": 0,
+            "speaker_confidence": 0.06550223,
+            "punctuated_word": "叔"
+          },
+          {
+            "word": "对",
+            "start": 18.685,
+            "end": 19.005001,
+            "confidence": 0.3684082,
+            "speaker": 0,
+            "speaker_confidence": 0.2580338,
+            "punctuated_word": "对"
+          },
+          {
+            "word": "可",
+            "start": 19.325,
+            "end": 19.825,
+            "confidence": 0.7890625,
+            "speaker": 0,
+            "speaker_confidence": 0.2580338,
+            "punctuated_word": "可"
+          }
+        ],
+        "speaker": 0,
+        "id": "3fb45ea0-4059-4dd4-8f11-cb04277db4d4"
+      },
+      {
+        "start": 20.445,
+        "end": 23.04,
+        "confidence": 0.70639646,
+        "channel": 0,
+        "transcript": "以 啦 先 杀 人 注 意 哦 谢 谢",
+        "words": [
+          {
+            "word": "以",
+            "start": 20.445,
+            "end": 20.685001,
+            "confidence": 0.98828125,
+            "speaker": 0,
+            "speaker_confidence": 0.21295816,
+            "punctuated_word": "以"
+          },
+          {
+            "word": "啦",
+            "start": 20.765,
+            "end": 20.925,
+            "confidence": 0.58984375,
+            "speaker": 0,
+            "speaker_confidence": 0.21295816,
+            "punctuated_word": "啦"
+          },
+          {
+            "word": "先",
+            "start": 21.085,
+            "end": 21.244999,
+            "confidence": 0.76464844,
+            "speaker": 0,
+            "speaker_confidence": 0.06452453,
+            "punctuated_word": "先"
+          },
+          {
+            "word": "杀",
+            "start": 21.325,
+            "end": 21.405,
+            "confidence": 0.7338867,
+            "speaker": 0,
+            "speaker_confidence": 0.06452453,
+            "punctuated_word": "杀"
+          },
+          {
+            "word": "人",
+            "start": 21.485,
+            "end": 21.565,
+            "confidence": 0.18554688,
+            "speaker": 0,
+            "speaker_confidence": 0.03025198,
+            "punctuated_word": "人"
+          },
+          {
+            "word": "注",
+            "start": 21.645,
+            "end": 21.725,
+            "confidence": 0.42797852,
+            "speaker": 0,
+            "speaker_confidence": 0.03025198,
+            "punctuated_word": "注"
+          },
+          {
+            "word": "意",
+            "start": 21.805,
+            "end": 21.965,
+            "confidence": 1,
+            "speaker": 0,
+            "speaker_confidence": 0.03025198,
+            "punctuated_word": "意"
+          },
+          {
+            "word": "哦",
+            "start": 22.045,
+            "end": 22.205,
+            "confidence": 0.3786621,
+            "speaker": 0,
+            "speaker_confidence": 0.15270793,
+            "punctuated_word": "哦"
+          },
+          {
+            "word": "谢",
+            "start": 22.285,
+            "end": 22.525,
+            "confidence": 0.9951172,
+            "speaker": 0,
+            "speaker_confidence": 0.15270793,
+            "punctuated_word": "谢"
+          },
+          {
+            "word": "谢",
+            "start": 22.605,
+            "end": 23.04,
+            "confidence": 1,
+            "speaker": 0,
+            "speaker_confidence": 0.15270793,
+            "punctuated_word": "谢"
+          }
+        ],
+        "speaker": 0,
+        "id": "57450fc2-54c2-483b-a60d-8c586541b039"
       }
     ]
   }

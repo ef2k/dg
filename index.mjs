@@ -4,6 +4,7 @@ import fs from "fs";
 import path from "path";
 import { fileURLToPath } from "url";
 import FormData from "form-data";
+import WebSocket from "ws";
 
 // Set the path to your audio file (output.mp3)
 const __filename = fileURLToPath(import.meta.url);
@@ -12,11 +13,13 @@ const AUDIO_FILE_PATH = path.resolve(
   __dirname,
   "audio",
   // "output-italian-mixed.mp3"
-  // "output-spanish-single.mp3"
+  "output-spanish-single.mp3"
   // "output-spanish-mixed.mp3"
   // "output-chinese-mixed.mp3"
-  "output-chinese-single.mp3"
+  // "output-chinese-single.mp3"
   // "output-spanglish-single.mp3"
+  // "carta-abierta.mp3"
+  // "output-chinese-convo.mp3"
 );
 
 // Map of common audio file extensions to MIME types
@@ -117,13 +120,15 @@ async function transcribeDGAudio() {
         "Content-Type": contentType,
       },
       params: {
+        alternatives: 1,
         diarize: true,
         detect_language: true,
         language: "multi",
         model: "nova-2",
         numerals: true,
         punctuate: true,
-        // utterances: true,
+        utterances: true,
+        summarize: true,
       },
       data: audioData,
     });
@@ -215,6 +220,79 @@ async function transcribeWhisperAudio(shouldTranslate = false) {
   }
 }
 
+async function transcribeDGAudioStream() {
+  const DG_API_KEY = process.env.DG_API_KEY;
+  const DG_URL = "wss://api.deepgram.com/v1/listen";
+
+  // Create WebSocket connection with fewer parameters
+  const ws = new WebSocket(
+    `${DG_URL}?model=nova-2&language=multi&punctuate=true`,
+    {
+      headers: {
+        Authorization: `Token ${DG_API_KEY}`,
+      },
+    }
+  );
+
+  let isStreamEnded = false;
+
+  // Handle WebSocket events
+  ws.on("open", () => {
+    console.log("Connected to Deepgram");
+
+    const audioStream = fs.createReadStream(AUDIO_FILE_PATH);
+    console.log("Starting to stream:", AUDIO_FILE_PATH);
+
+    audioStream.on("data", (chunk) => {
+      if (ws.readyState === WebSocket.OPEN) {
+        ws.send(chunk);
+        console.log("Sent chunk of size:", chunk.length);
+      }
+    });
+
+    audioStream.on("end", () => {
+      console.log("Finished streaming audio file");
+      isStreamEnded = true;
+      // Don't close immediately - let the message handler close when done
+    });
+
+    audioStream.on("error", (error) => {
+      console.error("Stream error:", error);
+      ws.close();
+    });
+  });
+
+  ws.on("message", (data) => {
+    const result = JSON.parse(data);
+    if (result.type === "Results") {
+      console.log("\n=== New Transcription ===");
+      console.log(JSON.stringify(result, null, 2));
+      const transcript = result.channel.alternatives[0].transcript;
+      if (transcript) {
+        console.log("Transcript:", transcript);
+      }
+
+      // If this is the final message and stream is ended, close after a delay
+      if (isStreamEnded && result.is_final) {
+        setTimeout(() => {
+          console.log("Processing complete, closing connection...");
+          ws.close();
+        }, 30000); // Wait 30 seconds after final message
+      }
+    } else {
+      console.log("Other message type:", result.type);
+    }
+  });
+
+  ws.on("error", (error) => {
+    console.error("WebSocket error:", error);
+  });
+
+  ws.on("close", () => {
+    console.log("Disconnected from Deepgram");
+  });
+}
+
 async function transcribeGoogleCloudAudio() {
   const GOOGLE_CLOUD_API_KEY = process.env.GOOGLE_CLOUD_API_KEY;
 
@@ -282,6 +360,8 @@ async function transcribeGoogleCloudAudio() {
 async function transcribeAudio(service) {
   if (service === "dg") {
     return transcribeDGAudio();
+  } else if (service === "dg-stream") {
+    return transcribeDGAudioStream();
   } else if (service === "whisper") {
     return transcribeWhisperAudio(true);
   } else if (service === "google") {
